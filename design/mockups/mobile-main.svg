@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="mobile-main.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="289.21579"
+     inkscape:cy="565.06208"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;stroke:#810000;stroke-width:0.32359636;stroke-opacity:1"
+       id="rect815"
+       width="126.67641"
+       height="253.94099"
+       x="41.6618"
+       y="21.529503"
+       rx="4.152728e-16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="73.257751"
+       y="13.971418"
+       id="text829"><tspan
+         sodipodi:role="line"
+         id="tspan827"
+         x="73.257751"
+         y="13.971418"
+         style="stroke-width:0.26458332">Mobile Main</tspan></text>
+    <rect
+       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect831"
+       width="127"
+       height="26.458334"
+       x="41.500004"
+       y="21.529503"
+       rx="2.7755584e-16" />
+    <rect
+       style="fill:#00ffad;fill-opacity:1;stroke:#810000;stroke-width:0.1858276;stroke-opacity:1"
+       id="rect831-3"
+       width="127.07876"
+       height="13.043339"
+       x="41.460625"
+       y="47.987839"
+       rx="2.7772794e-16"
+       inkscape:transform-center-x="-0.37821059"
+       inkscape:transform-center-y="-7.4533371" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="85.213097"
+       y="37.632732"
+       id="text850"><tspan
+         sodipodi:role="line"
+         id="tspan848"
+         x="85.213097"
+         y="37.632732"
+         style="stroke-width:0.26458332">Header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="94.948936"
+       y="57.287491"
+       id="text854"><tspan
+         sodipodi:role="line"
+         id="tspan852"
+         x="94.948936"
+         y="57.287491"
+         style="stroke-width:0.26458332">nav</tspan></text>
+    <rect
+       style="fill:#fffc00;fill-opacity:1;stroke:#810000;stroke-width:0.68509662;stroke-opacity:1"
+       id="rect831-6"
+       width="126.57949"
+       height="177.98424"
+       x="41.710258"
+       y="61.241432"
+       rx="2.766368e-16" />
+    <rect
+       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.26458332;stroke-opacity:1"
+       id="rect831-7"
+       width="127"
+       height="26.458334"
+       x="41.500004"
+       y="239.54761"
+       rx="2.7755584e-16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.763573"
+       y="84.442276"
+       id="text854-5"><tspan
+         sodipodi:role="line"
+         id="tspan852-3"
+         x="83.763573"
+         y="84.442276"
+         style="stroke-width:0.26458332">post list</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="89.034569"
+       y="252.77676"
+       id="text888"><tspan
+         sodipodi:role="line"
+         id="tspan886"
+         x="89.034569"
+         y="252.77676"
+         style="stroke-width:0.26458332">footer</tspan></text>
+  </g>
+</svg>
