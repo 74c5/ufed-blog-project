@@ -1,43 +1,179 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="793.70081"
-   height="1122.5197"
-   viewBox="0 0 210 297"
-   version="1.1"
+   sodipodi:docname="mobile-main.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="mobile-main.svg">
+   version="1.1"
+   viewBox="0 0 211.66666 529.16668"
+   height="2000"
+   width="800">
   <defs
-     id="defs2" />
+     id="defs2">
+    <linearGradient
+       id="linearGradient889"
+       inkscape:collect="always">
+      <stop
+         id="stop885"
+         offset="0"
+         style="stop-color:#afe2e4;stop-opacity:1;" />
+      <stop
+         id="stop887"
+         offset="1"
+         style="stop-color:#afe2e4;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-3.1129699,-224.33084)"
+       gradientUnits="userSpaceOnUse"
+       y2="33.361626"
+       x2="29.916821"
+       y1="33.361626"
+       x1="11.660864"
+       id="linearGradient891"
+       xlink:href="#linearGradient889"
+       inkscape:collect="always" />
+    <filter
+       inkscape:label="drop-shadow-card"
+       height="1.0746362"
+       y="-0.037318102"
+       width="1.0328285"
+       x="-0.016414256"
+       id="filter2204"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         dx="10"
+         result="result1"
+         in="SourceAlpha"
+         id="feGaussianBlur2206"
+         stdDeviation="1"
+         inkscape:collect="always" />
+      <feOffset
+         id="feOffset2216"
+         dy="0"
+         dx="100" />
+      <feMerge
+         id="feMerge2210">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode2212"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2214"
+           inkscape:collect="always" />
+      </feMerge>
+    </filter>
+  </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="289.21579"
-     inkscape:cy="565.06208"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="0"
+     inkscape:document-rotation="0"
+     inkscape:guide-bbox="true"
+     guideopacity="0.49803922"
+     guidecolor="#6c6c6c"
+     inkscape:window-maximized="1"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-x="0"
+     inkscape:window-height="1021"
+     inkscape:window-width="1920"
+     showguides="true"
+     units="px"
+     showgrid="true"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="287.93897"
+     inkscape:cx="180.57191"
+     inkscape:zoom="1.4142136"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       empopacity="0.11764706"
+       empcolor="#3f3fff"
+       opacity="0.05882353"
+       color="#3f3fff"
+       dotted="true"
+       spacingy="0.26458333"
+       spacingx="0.26458333"
+       id="grid876"
+       type="xygrid" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4583"
+       orientation="0,1"
+       position="5.2916664,301.625" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4585"
+       orientation="1,0"
+       position="5.2916667,301.625" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4587"
+       orientation="1,0"
+       position="7.9375,301.625" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4589"
+       orientation="1,0"
+       position="100.54167,301.625" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4591"
+       orientation="1,0"
+       position="97.895833,301.62501" />
+    <sodipodi:guide
+       inkscape:color="rgb(108,108,108)"
+       inkscape:label=""
+       inkscape:locked="false"
+       id="guide4593"
+       orientation="0,1"
+       position="5.2916667,259.29167" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1484"
+       orientation="1,0"
+       position="95.249996,201.08334" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1486"
+       orientation="1,0"
+       position="10.583333,201.08334" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1488"
+       orientation="0,1"
+       position="7.9374998,198.4375" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1490"
+       orientation="0,1"
+       position="7.9374998,153.45834" />
+    <sodipodi:guide
+       inkscape:locked="false"
+       id="guide1687"
+       orientation="0,1"
+       position="7.9374998,156.10417" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,110 +182,523 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     transform="translate(0,232.16668)"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:#e9e9e9;fill-opacity:1;stroke:#810000;stroke-width:0.32359636;stroke-opacity:1"
-       id="rect815"
-       width="126.67641"
-       height="253.94099"
-       x="41.6618"
-       y="21.529503"
-       rx="4.152728e-16" />
+     inkscape:label="Layer 1">
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="73.257751"
-       y="13.971418"
-       id="text829"><tspan
-         sodipodi:role="line"
+       transform="scale(0.86499129,1.156081)"
+       id="text829"
+       y="-189.50868"
+       x="35.807034"
+       style="font-style:normal;font-weight:normal;font-size:9.15523052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22888075"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.22888075"
+         y="-189.50868"
+         x="35.807034"
          id="tspan827"
-         x="73.257751"
-         y="13.971418"
-         style="stroke-width:0.26458332">Mobile Main</tspan></text>
+         sodipodi:role="line">Mobile Main</tspan></text>
     <rect
-       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.26458332;stroke-opacity:1"
+       rx="2.0755662e-16"
+       y="-216.15205"
+       x="5.4312835"
+       height="39.408268"
+       width="94.970772"
        id="rect831"
-       width="127"
-       height="26.458334"
-       x="41.500004"
-       y="21.529503"
-       rx="2.7755584e-16" />
+       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.279234;stroke-opacity:1" />
     <rect
-       style="fill:#00ffad;fill-opacity:1;stroke:#810000;stroke-width:0.1858276;stroke-opacity:1"
+       inkscape:transform-center-y="-7.4675813"
+       inkscape:transform-center-x="-0.28300556"
+       rx="2.0781522e-16"
+       y="-189.7529"
+       x="5.3721161"
+       height="13.068268"
+       width="95.089104"
        id="rect831-3"
-       width="127.07876"
-       height="13.043339"
-       x="41.460625"
-       y="47.987839"
-       rx="2.7772794e-16"
-       inkscape:transform-center-x="-0.37821059"
-       inkscape:transform-center-y="-7.4533371" />
+       style="fill:#00ffad;fill-opacity:1;stroke:#810000;stroke-width:0.16089913;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="85.213097"
-       y="37.632732"
-       id="text850"><tspan
-         sodipodi:role="line"
+       transform="scale(0.86499107,1.1560813)"
+       id="text850"
+       y="-172.23416"
+       x="122.94583"
+       style="font-style:normal;font-weight:normal;font-size:9.15523052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22888075"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.22888075"
+         y="-172.23416"
+         x="122.94583"
          id="tspan848"
-         x="85.213097"
-         y="37.632732"
-         style="stroke-width:0.26458332">Header</tspan></text>
+         sodipodi:role="line">Header</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="94.948936"
-       y="57.287491"
-       id="text854"><tspan
-         sodipodi:role="line"
+       transform="scale(0.86499107,1.1560813)"
+       id="text854"
+       y="-152.72644"
+       x="123.0129"
+       style="font-style:normal;font-weight:normal;font-size:9.15523052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22888075"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.22888075"
+         y="-152.72644"
+         x="123.0129"
          id="tspan852"
-         x="94.948936"
-         y="57.287491"
-         style="stroke-width:0.26458332">nav</tspan></text>
+         sodipodi:role="line">nav</tspan></text>
     <rect
-       style="fill:#fffc00;fill-opacity:1;stroke:#810000;stroke-width:0.68509662;stroke-opacity:1"
+       rx="2.0673995e-16"
+       y="-176.27771"
+       x="5.6181207"
+       height="216.30542"
+       width="94.597092"
        id="rect831-6"
-       width="126.57949"
-       height="177.98424"
-       x="41.710258"
-       y="61.241432"
-       rx="2.766368e-16" />
-    <rect
-       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.26458332;stroke-opacity:1"
-       id="rect831-7"
-       width="127"
-       height="26.458334"
-       x="41.500004"
-       y="239.54761"
-       rx="2.7755584e-16" />
+       style="fill:#fffc00;fill-opacity:1;stroke:#810000;stroke-width:0.65290833;stroke-opacity:1" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="83.763573"
-       y="84.442276"
-       id="text854-5"><tspan
-         sodipodi:role="line"
+       transform="scale(0.86499107,1.1560813)"
+       id="text854-5"
+       y="-138.39113"
+       x="123.0129"
+       style="font-style:normal;font-weight:normal;font-size:9.15523052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22888075"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.22888075"
+         y="-138.39113"
+         x="123.0129"
          id="tspan852-3"
-         x="83.763573"
-         y="84.442276"
-         style="stroke-width:0.26458332">post list</tspan></text>
+         sodipodi:role="line">content</tspan></text>
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="89.034569"
-       y="252.77676"
-       id="text888"><tspan
-         sodipodi:role="line"
+       transform="scale(0.86499107,1.1560813)"
+       id="text888"
+       y="46.901405"
+       x="123.63428"
+       style="font-style:normal;font-weight:normal;font-size:9.15523052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.22888075"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.22888075"
+         y="46.901405"
+         x="123.63428"
          id="tspan886"
-         x="89.034569"
-         y="252.77676"
-         style="stroke-width:0.26458332">footer</tspan></text>
+         sodipodi:role="line">footer</tspan></text>
+    <rect
+       ry="2.6458333"
+       rx="2.6458333"
+       y="-173.85159"
+       x="8.0442524"
+       height="39.473995"
+       width="89.744827"
+       id="rect835"
+       style="fill:#00e9ff;fill-opacity:1;stroke:#939393;stroke-width:0.26458333;stroke-opacity:1;filter:url(#filter2204);stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       ry="2.304316"
+       rx="2.6385813"
+       y="-131.50172"
+       x="8.0607891"
+       height="52.670086"
+       width="89.711754"
+       id="rect835-3"
+       style="fill:#00e9ff;fill-opacity:1;stroke:#007081;stroke-width:0.24657921;stroke-opacity:1" />
+    <text
+       id="text855"
+       y="-156.83798"
+       x="40.35429"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="-156.83798"
+         x="40.35429"
+         id="tspan853"
+         sodipodi:role="line">card</tspan></text>
+    <rect
+       ry="1.1499282"
+       rx="2.640708"
+       y="8.6912889"
+       x="8.0246859"
+       height="26.284075"
+       width="89.784073"
+       id="rect835-6"
+       style="fill:#00e9ff;fill-opacity:1;stroke:#007081;stroke-width:0.17425913;stroke-opacity:1" />
+    <rect
+       rx="2.0762394e-16"
+       y="40.452747"
+       x="5.3902626"
+       height="19.646559"
+       width="95.001572"
+       id="rect831-7"
+       style="fill:#007bff;fill-opacity:1;stroke:#810000;stroke-width:0.19719142;stroke-opacity:1" />
+    <rect
+       ry="1.7269871"
+       rx="2.6395557"
+       y="-33.622433"
+       x="8.1507874"
+       height="39.473995"
+       width="89.744896"
+       id="rect835-7"
+       style="fill:#00e9ff;fill-opacity:1;stroke:#007081;stroke-width:0.21350592;stroke-opacity:1" />
+    <rect
+       ry="1.7269871"
+       rx="2.6395557"
+       y="-75.955757"
+       x="8.0442762"
+       height="39.473995"
+       width="89.744896"
+       id="rect835-5"
+       style="fill:#00e9ff;fill-opacity:1;stroke:#007081;stroke-width:0.21350592;stroke-opacity:1" />
+    <circle
+       r="8.4666662"
+       cy="-190.96924"
+       cx="17.675718"
+       id="path875"
+       style="fill:url(#linearGradient891);fill-opacity:1;stroke:#656565;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:3.96875, 1.32291667;stroke-dashoffset:0;stroke-opacity:1">
+      <title
+         id="title893">float button</title>
+    </circle>
+    <text
+       id="text897"
+       y="-185.48857"
+       x="15.029887"
+       style="font-style:normal;font-weight:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff004c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:14.11111069px;fill:#ff004c;fill-opacity:1;stroke-width:0.26458332"
+         y="-185.48857"
+         x="15.029887"
+         id="tspan895"
+         sodipodi:role="line">*</tspan></text>
+    <text
+       id="text901"
+       y="-207.10883"
+       x="145.43167"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="-207.10883"
+         x="145.43167"
+         id="tspan4595"
+         sodipodi:role="line"><tspan
+   id="tspan4603"
+   style="fill:#ff004c;fill-opacity:1">*</tspan> float button</tspan><tspan
+         y="-199.17133"
+         x="145.43167"
+         id="tspan4597"
+         sodipodi:role="line">   return to top</tspan><tspan
+         y="-191.23383"
+         x="145.43167"
+         id="tspan4599"
+         sodipodi:role="line">   hidden behind </tspan><tspan
+         y="-183.29633"
+         x="145.43167"
+         id="tspan4601"
+         sodipodi:role="line">   menu/nav</tspan></text>
+    <text
+       id="text921"
+       y="-199.11702"
+       x="43.086487"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f4f4f4;fill-opacity:1;stroke:#383838;stroke-width:0.26458332;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#f4f4f4;fill-opacity:1;stroke:#383838;stroke-width:0.26458332;stroke-opacity:1"
+         y="-199.11702"
+         x="43.086487"
+         id="tspan919"
+         sodipodi:role="line">Title</tspan></text>
+    <text
+       id="text925"
+       y="-180.90727"
+       x="75.808449"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f4;fill-opacity:1;stroke:#383838;stroke-width:0.26458332;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="-180.90727"
+         x="75.808449"
+         id="tspan874"
+         sodipodi:role="line">ABOUT</tspan></text>
+    <text
+       id="text929"
+       y="-181.16411"
+       x="7.6478209"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f4f4f4;fill-opacity:1;stroke:#383838;stroke-width:0.26458332;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="-181.16411"
+         x="7.6478209"
+         id="tspan872"
+         sodipodi:role="line">POPULAR</tspan></text>
+    <text
+       id="text929-0"
+       y="48.798084"
+       x="97.83519"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#f4f4f4;fill-opacity:1;stroke:#8f8f8f;stroke-width:0.26458332;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="48.798084"
+         x="97.83519"
+         id="tspan868"
+         sodipodi:role="line">74c5 Media Entertainment</tspan><tspan
+         y="54.089741"
+         x="97.83519"
+         id="tspan870"
+         sodipodi:role="line">(c) Copyright  - 2097</tspan></text>
+    <rect
+       ry="2.6458333"
+       rx="2.6458333"
+       y="96.033607"
+       x="8.0544567"
+       height="47.391087"
+       width="89.724419"
+       id="rect835-2"
+       style="fill:#00e9ff;fill-opacity:0.19422572;stroke:#007081;stroke-width:0.23391238;stroke-opacity:1" />
+    <text
+       id="text855-4"
+       y="91.798042"
+       x="41.618431"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="91.798042"
+         x="41.618431"
+         id="tspan853-7"
+         sodipodi:role="line">card</tspan></text>
+    <ellipse
+       ry="15.741004"
+       rx="15.741003"
+       cy="114.43748"
+       cx="26.458334"
+       id="path1476"
+       style="fill:#cbc7c7;fill-opacity:0.34120735;stroke:#000000;stroke-width:0.26799262;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text1480"
+       y="105.17707"
+       x="48.021873"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="105.17707"
+         x="48.021873"
+         id="tspan1482"
+         sodipodi:role="line">Long Post Title</tspan></text>
+    <text
+       id="text1480-5"
+       y="109.67499"
+       x="65.219788"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3c3c3c;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       xml:space="preserve"><tspan
+         y="109.67499"
+         x="65.219788"
+         id="tspan1510"
+         sodipodi:role="line">by Author Name</tspan></text>
+    <flowRoot
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       id="flowRoot1512"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1514"><rect
+           y="1300"
+           x="170"
+           height="115"
+           width="185"
+           id="rect1516" /></flowRegion><flowPara
+         id="flowPara1518" /></flowRoot>
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.25777936,0,-224.12949)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1528"
+       xml:space="preserve"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowRegion1530"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="1300"
+           x="170"
+           height="119.99996"
+           width="190"
+           id="rect1532" /></flowRegion><flowPara
+         id="flowPara1538">The synopis of this article is lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias animi pariatur tempora placeat perspiciatis repellat id neque tempore et quia voluptatum, quam quos atque dolore molestiae quo, deleniti beatae nihil debitis blanditiis eius adipisci provident. Soluta harum obcaecati quae quam sit doloremque maiores eius unde reiciendis, quod veniam quos perferendis laudantium nam magnam facilis blanditiis at consequatur et reprehenderit doloribus laboriosam, necessitatibus quis dolore. Quasi ab, suscipit enim neque dolorem, quas dolor voluptas ullam ducimus rerum, doloremque modi saepe dicta ipsa inventore adipisci sit earum natus consequatur molestiae cupiditate est possimus magnam dignissimos? Ab tempora illum aspernatur ipsa repudiandae.</flowPara></flowRoot>
+    <rect
+       ry="2.6458333"
+       rx="2.6458333"
+       y="164.82849"
+       x="8.0576649"
+       height="50.030502"
+       width="89.718002"
+       id="rect835-2-2"
+       style="fill:#00e9ff;fill-opacity:0.19422572;stroke:#007081;stroke-width:0.24032933;stroke-opacity:1" />
+    <text
+       id="text855-4-8"
+       y="160.70988"
+       x="41.738586"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="160.70988"
+         x="41.738586"
+         id="tspan853-7-9"
+         sodipodi:role="line">card</tspan></text>
+    <text
+       id="text1480-6"
+       y="174.08891"
+       x="48.142036"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="174.08891"
+         x="48.142036"
+         id="tspan1482-8"
+         sodipodi:role="line"
+         style="stroke-width:0.26458332">Long Post Title</tspan></text>
+    <text
+       id="text1480-5-0"
+       y="178.58682"
+       x="65.339943"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3c3c3c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="178.58682"
+         x="65.339943"
+         id="tspan1510-2"
+         sodipodi:role="line"
+         style="stroke-width:0.26458332">by Author Name</tspan></text>
+    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1528-1"
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0.12016046,-163.25486)"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowRegion1530-0"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="1300"
+           x="170"
+           height="119.99996"
+           width="190"
+           id="rect1532-5" /></flowRegion><flowPara
+         id="flowPara1538-1">The synopis of this article is lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias animi pariatur tempora placeat perspiciatis repellat id neque tempore et quia voluptatum, quam quos atque dolore molestiae quo, deleniti beatae nihil debitis blanditiis eius adipisci provident. Soluta harum obcaecati quae quam sit doloremque maiores eius unde reiciendis, quod veniam quos perferendis laudantium nam magnam facilis blanditiis at consequatur et reprehenderit doloribus laboriosam, necessitatibus quis dolore. Quasi ab, suscipit enim neque dolorem, quas dolor voluptas ullam ducimus rerum, doloremque modi saepe dicta ipsa inventore adipisci sit earum natus consequatur molestiae cupiditate est possimus magnam dignissimos? Ab tempora illum aspernatur ipsa repudiandae.</flowPara></flowRoot>
+    <rect
+       ry="1.3229166"
+       rx="1.3229166"
+       y="167.43761"
+       x="10.666792"
+       height="34.228916"
+       width="31.583082"
+       id="rect1588"
+       style="fill:#3c3c3c;fill-opacity:0.48293966;stroke:#000000;stroke-width:0.16691752;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="2.6458333"
+       rx="2.6458333"
+       y="233.49998"
+       x="8.1778297"
+       height="50.030502"
+       width="89.718002"
+       id="rect835-2-2-1"
+       style="fill:#00e9ff;fill-opacity:0.19422572;stroke:#007081;stroke-width:0.24032933;stroke-opacity:1" />
+    <text
+       id="text855-4-8-0"
+       y="229.38138"
+       x="41.858753"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.26458332"
+         y="229.38138"
+         x="41.858753"
+         id="tspan853-7-9-8"
+         sodipodi:role="line">card</tspan></text>
+    <text
+       id="text1480-6-5"
+       y="242.76039"
+       x="10.162177"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="242.76039"
+         x="10.162177"
+         id="tspan1482-8-0"
+         sodipodi:role="line"
+         style="stroke-width:0.26458332">Long Post Title</tspan></text>
+    <text
+       id="text1480-5-0-6"
+       y="247.25832"
+       x="10.426739"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3c3c3c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="247.25832"
+         x="10.426739"
+         id="tspan1510-2-4"
+         sodipodi:role="line"
+         style="stroke-width:0.26458332">by Author Name</tspan></text>
+    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1528-1-6"
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-34.155508,-94.583379)"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="flowRegion1530-0-2"><rect
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="1300"
+           x="170"
+           height="119.99996"
+           width="190"
+           id="rect1532-5-5" /></flowRegion><flowPara
+         id="flowPara1538-1-8">The synopis of this article is lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias animi pariatur tempora placeat perspiciatis repellat id neque tempore et quia voluptatum, quam quos atque dolore molestiae quo, deleniti beatae nihil debitis blanditiis eius adipisci provident. Soluta harum obcaecati quae quam sit doloremque maiores eius unde reiciendis, quod veniam quos perferendis laudantium nam magnam facilis blanditiis at consequatur et reprehenderit doloribus laboriosam, necessitatibus quis dolore. Quasi ab, suscipit enim neque dolorem, quas dolor voluptas ullam ducimus rerum, doloremque modi saepe dicta ipsa inventore adipisci sit earum natus consequatur molestiae cupiditate est possimus magnam dignissimos? Ab tempora illum aspernatur ipsa repudiandae.</flowPara></flowRoot>
+    <rect
+       ry="0.9508031"
+       rx="1.3159617"
+       y="236.22928"
+       x="63.583458"
+       height="34.228916"
+       width="31.583084"
+       id="rect1588-6"
+       style="fill:#3c3c3c;fill-opacity:0.48293966;stroke:#000000;stroke-width:0.1669175;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       id="g1649">
+      <rect
+         style="opacity:0.38200001;fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.36341339;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1638"
+         width="31.386587"
+         height="7.5740867"
+         x="10.76504"
+         y="204.57753"
+         rx="1.3229166"
+         ry="1.3229166" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="20.489706"
+         y="209.90764"
+         id="text1642"><tspan
+           sodipodi:role="line"
+           id="tspan1644"
+           x="20.489706"
+           y="209.90764">READ</tspan></text>
+    </g>
+    <g
+       id="g1649-2"
+       transform="translate(53.098372,68.973374)">
+      <rect
+         style="opacity:0.38200001;fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.36341339;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1638-8"
+         width="31.386587"
+         height="7.5740867"
+         x="10.76504"
+         y="204.57753"
+         rx="1.3077743"
+         ry="1.2623478" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="20.489706"
+         y="209.90764"
+         id="text1642-4"><tspan
+           sodipodi:role="line"
+           id="tspan1644-7"
+           x="20.489706"
+           y="209.90764">READ</tspan></text>
+    </g>
+    <g
+       id="g1649-24"
+       transform="translate(0.18170608,-71.437504)">
+      <rect
+         style="opacity:0.38200001;fill:#242424;fill-opacity:1;stroke:#000000;stroke-width:0.36341339;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect1638-0"
+         width="31.386587"
+         height="7.5740867"
+         x="10.76504"
+         y="204.57753"
+         rx="1.3077743"
+         ry="1.2623478" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="20.489706"
+         y="209.90764"
+         id="text1642-6"><tspan
+           sodipodi:role="line"
+           id="tspan1644-2"
+           x="20.489706"
+           y="209.90764">READ</tspan></text>
+    </g>
   </g>
 </svg>
