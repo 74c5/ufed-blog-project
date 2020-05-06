@@ -1,5 +1,375 @@
 @import url("./base.css");
 
+/* Set colours and reset browser defaults */
+/* TODO: use more compatible colouring scheme */
+:root {
+    --primary-0: #04859d;
+    --primary-1: #49a4b6;
+    --primary-2: #278fa3;
+    --primary-3: #036779;
+    --primary-4: #02515f;
+    --secondary-1-0: #ff9200;
+    --secondary-1-1: #ffbc63;
+    --secondary-1-2: #ffaa39;
+    --secondary-1-3: #c57100;
+    --secondary-1-4: #9b5900;
+    --secondary-2-0: #ff6200;
+    --secondary-2-1: #ff9f63;
+    --secondary-2-2: #ff8539;
+    --secondary-2-3: #c54b00;
+    --secondary-2-4: #9b3b00;
+    --complement-0: #ff7c00;
+    --complement-1: #ffaf63;
+    --complement-2: #ff9a39;
+    --complement-3: #c56000;
+    --complement-4: #9b4c00;
+    --grey-dark-0: #36393a;
+    --grey-dark-1: #414c4f;
+    --grey-dark-2: #2d3131;
+    --grey-dark-3: #242829;
+    --grey-dark-4: #191d1e;
+    --grey-light-0: #d0d6d7;
+    --grey-light-1: #81a1a7;
+    --grey-light-2: #a2babe;
+    --grey-light-3: #96a0a2;
+    --grey-light-4: #828d8f;
+}
+
 body {
-    background-color: lightgreen;
+    /* font-family: TODO: add custom font  */
+    background-color: var(--grey-light-0);
+    font-size: 12px;
+}
+
+/* Page Layout */
+.content {
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+        "head"
+        "main"
+        "share"
+        "feature"
+        "foot";
+}
+
+/* HEADER */
+.main-head {
+    background-color: var(--primary-0);
+    /* height: 150px; */
+    width: 100%;
+    grid-area: head;
+    z-index: 10;
+}
+
+/* TODO: do I want this? */
+.logo {
+    display: none;
+}
+
+.main-title {
+    color: var(--secondary-1-0);
+    font-size: 2.5em;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 50px; */
+    list-style-type: none;
+    margin: 10px;
+}
+
+/* TODO: add hover to nav items */
+.nav-item {
+    font-size: 1.5em;
+}
+
+.nav-link {
+    color: var(--complement-1);
+    text-decoration: none;
+}
+
+/** MAIN */
+
+.post-main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.post-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.post-title {
+    font-size: 1.2em;
+}
+
+.auth-img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--secondary-2-4);
+    border-radius: 15px;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.post-date {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--grey-dark-1);
+}
+
+.post-author {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--grey-dark-1);
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+/* TODO: Add center, left-wrap, right-wrap classes for flow around images? */
+.post-image {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+/** Share - social */
+/* social */
+.post-share {
+    grid-area: share;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: var(--secondary-2-4);
+    background-color: var(--primary-0); 
+}
+
+.social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.icon {
+    /* TODO: do I need this? */
+}
+
+
+/* TODO: Add icons from ??? */
+.icon-tw {
+    content: "TW";
+}
+.icon-fb {
+    content: "FB"
+}
+.icon-ln {
+    content: "LN"
+}
+
+
+/** Feature - related blog list */
+.post-feature {
+    grid-area: feature;
+    padding: 10px;
+    z-index: 1;
+    background-color: var(--secondary-2-1);
+    /* TODO: Controlled programatically via buttons */
+    overflow: auto;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mini-card-1 {
+    height: 150px;
+    max-height: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 130px 1fr 1fr;
+    grid-template-rows: max-content max-content 1fr max-content;
+    grid-template-areas:
+        "card-img card-title card-title"
+        "card-img card-auth  card-auth"
+        "card-img card-share card-read";
+    row-gap: 0;
+    column-gap: 10px;
+    border: 1px outset var(--secondary-2-2);
+}
+
+
+.mini-card-2 {
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 80px;
+    grid-template-rows: max-content max-content 1fr max-content;
+    grid-template-areas:
+        "card-title card-title card-img"
+        "card-auth  card-auth  card-img"
+        "none none card-img"
+        "card-read  card-share card-img";
+    row-gap: 0;
+    column-gap: 10px;
+    border: 1px outset var(--secondary-2-2);
+}
+
+
+.mini-card-3 {
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas:
+        "card-title card-img"
+        "card-auth  card-img"
+        "card-read  card-img"
+        "card-share card-img";
+    row-gap: 0;
+    column-gap: 10px;
+    border: 1px outset var(--secondary-2-2);
+}
+
+.mini-card-4 {
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas:
+        "card-img card-title"
+        "card-img card-auth"
+        "card-img card-read"
+        "card-img card-share";
+    row-gap: 0;
+    column-gap: 10px;
+    border: 1px outset var(--secondary-2-2);
+}
+
+
+.mini-card-img {
+    grid-area: card-img;
+    height: 100px;
+    border: 1px solid var(--grey-dark-1);
+    border-radius: 5px;
+    background-color: var(--grey-dark-2);
+}
+
+/* TODO: tidy... move to separate, base, component or themes sheet */
+.button {
+    /* height: 100%; */
+    /* width: 100%; */
+    display: inline-block;
+    border: 1px solid var(--grey-dark-4);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+}
+
+.btn-primary {
+    border: 1px solid var(--grey-dark-4);
+    color: var(--grey-dark-4);
+    background-color: var(--grey-light-1);
+}
+
+.btn-primary-inv {
+    border: 1px solid var(--grey-dark-4);
+    color: var(--grey-light-1);
+    background-color: var(--grey-dark-4);
+}
+
+
+.button:hover {
+    color: var(--grey-dark-1);
+    background-color: var(--grey-light-4);
+    /* todo: add jiggle */
+}
+
+.card-read {
+    grid-area: card-read;
+}
+
+.card-share {
+    grid-area: card-share;
+}
+
+.mini-card-title {
+    grid-area: card-title;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.mini-card-author {
+    grid-area: card-auth;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/** Footer */
+.main-foot {
+    grid-area: foot;
+    background-color: var(--primary-0); 
+}
+
+.copyright {
+    padding: 10px;
+    text-align: right;    
+}
+
+/** Floating button */
+.float-icon {
+    position: fixed;
+    z-index: 5;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid var(--secondary-1-2);
+    border-radius: 20px;
+    background-color: var(--secondary-1-1);
+}
+
+.icon-up {
+    content: "UP";
+    top: 20px;
+    left: 20px;
 }

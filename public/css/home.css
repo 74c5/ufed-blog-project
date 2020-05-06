@@ -251,7 +251,11 @@ body {
 
 
 /* social */
-.site-social {
+.main-social {
+    grid-area: social;
+}
+
+.social-list {
     display: flex;
     flex-direction: row;
     justify-content: end;
