@@ -5,3 +5,7 @@
 
 # local vscode settings
 .vscode/
+
+# downloaded design resource files
+#  - used resources will be added to project
+/design/resources/fontawesome*
