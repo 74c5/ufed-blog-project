@@ -1,3 +1,31 @@
+/* @font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@900');
+}
+ 
+ @font-face {
+     font-family: 'Libre Baskerville';
+     src: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville');
+} */
+
+/* set 1 */
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600'); */
+/* set 2 */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1'); */
+/* set 3 */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro'); */
+/* set 3 */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700');
+
+/* try */
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand'); */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans'); */
 
 /* Reset browser defaults */
 * {
@@ -6,6 +34,23 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Libre Baskerville', sans-serif; */
+    /* font-family: 'Playfair Display', sans-serif; */
+    /* font-family: 'Source Sans Pro', serif; */
+    font-family: 'Montserrat', serif;
+    /* font-family: 'Open Sans', serif; */
     font-size: 12px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+header   {
+    /* font-family: 'Open Sans', serif; */
+    /* font-family: 'Montserrat', serif; */
+    /* font-family: 'Playfair Display', sans-serif; */
+    font-family: 'Sedgwick Ave Display';
+    /* font-family: 'Roboto', serif; */
 }

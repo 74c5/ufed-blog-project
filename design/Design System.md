@@ -4,7 +4,7 @@
 
 Tri-color with complement in pastels
 
-- Palette URL: http://paletton.com/#uid=43m0b0kw0w0jyC+oRxVy4oIDfjr
+- Palette URL: http://paletton.com/#uid=70j0u0kqoy79ySAf-KTyPlOEPg-
 - CSS [link](./colors.css)
 
 
@@ -14,6 +14,11 @@ Tri-color with complement in pastels
 
 # Icons
 
+Using font-awesome, in [self hosting](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
+for full control, as it in spirit with this project.
+Will try to use a minimal set?
+
+- http://fontello.com/
 
 
 # Components
