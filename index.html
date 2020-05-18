@@ -1,13 +1,56 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dummy Document</title>
+    <meta http-equiv="Refresh" content="10 ; url=public/index.html" />
+    <title>GitHub Shim Page for Blog Project</title>
 </head>
+
 <body>
-    <h1>Testing redirect through GitHub pages....</h1>
-    <!--TODO: make redirect automatically... -->
-    <img src="public/assets/avatars/joe.jpg" alt="tortoise avatar">
-    <a href="public/index.html">Project Site...</a>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-items: center;
+        }
+
+        h2 {
+            margin-top: 1em;
+        }
+    </style>
+    <div class="container">
+        <h1>Attempting redirect in 10 seconds....</h1>
+
+        <p>Project Example content hosted at :<a
+                href="public/index.html">https://74c5.github.io/ufed-blog-project/public/index.html</a>
+        </p>
+
+        <h2>Reason:</h2>
+        <p>
+            GitHub pages requires a index.html file in the root directory of the project to work.
+        </p>
+        <p>
+            I have <i>organised</i> my project to use a '/public' folder for files which should be
+            published.
+            I keep resources and design files in other sub-folders, potentially other things like a
+            wiki, etc... too.
+        </p>
+        <p>
+            This file is therefore implemented as a shim to redirect to the public site.
+        </p>
+    </div>
 </body>
+
 </html>

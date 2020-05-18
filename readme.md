@@ -1,6 +1,6 @@
 Project files Personal Blog Website module of Udacity Nano-degree: [Font End Web Developer](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011).
 
-You can view live version site at [TODO:]()
+You can view live version site [here](https://74c5.github.io/ufed-blog-project/public/index.html)
 
 # Goals
 
