@@ -1,9 +1,11 @@
 
-.button {
+.btn-1,
+.btn-inv,
+.btn-2 {
     height: 2em;
-    width: 50px;
+    /* width: 50px; */
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 0.25em;
     cursor: pointer;
     text-decoration: none;
     text-align: center;

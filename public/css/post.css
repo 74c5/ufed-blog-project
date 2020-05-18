@@ -1,48 +1,11 @@
+@import url("./colors.css");
 @import url("./base.css");
+@import url("./cards.css");
+@import url("./buttons.css");
 
-/* Set colours and reset browser defaults */
-/* TODO: use more compatible colouring scheme */
-:root {
-    --primary-0: #04859d;
-    --primary-1: #49a4b6;
-    --primary-2: #278fa3;
-    --primary-3: #036779;
-    --primary-4: #02515f;
-    --secondary-1-0: #ff9200;
-    --secondary-1-1: #ffbc63;
-    --secondary-1-2: #ffaa39;
-    --secondary-1-3: #c57100;
-    --secondary-1-4: #9b5900;
-    --secondary-2-0: #ff6200;
-    --secondary-2-1: #ff9f63;
-    --secondary-2-2: #ff8539;
-    --secondary-2-3: #c54b00;
-    --secondary-2-4: #9b3b00;
-    --complement-0: #ff7c00;
-    --complement-1: #ffaf63;
-    --complement-2: #ff9a39;
-    --complement-3: #c56000;
-    --complement-4: #9b4c00;
-    --grey-dark-0: #36393a;
-    --grey-dark-1: #414c4f;
-    --grey-dark-2: #2d3131;
-    --grey-dark-3: #242829;
-    --grey-dark-4: #191d1e;
-    --grey-light-0: #d0d6d7;
-    --grey-light-1: #81a1a7;
-    --grey-light-2: #a2babe;
-    --grey-light-3: #96a0a2;
-    --grey-light-4: #828d8f;
-}
-
-body {
-    /* font-family: TODO: add custom font  */
-    background-color: var(--grey-light-0);
-    font-size: 12px;
-}
 
 /* Page Layout */
-.content {
+.container {
     width: 100vw;
     display: grid;
     grid-template-areas:
@@ -54,154 +17,238 @@ body {
 }
 
 /* HEADER */
-.main-head {
-    background-color: var(--primary-0);
-    /* height: 150px; */
-    width: 100%;
+.page-header {
     grid-area: head;
-    z-index: 10;
 }
 
-/* TODO: do I want this? */
-.logo {
-    display: none;
-}
-
-.main-title {
-    color: var(--secondary-1-0);
-    font-size: 2.5em;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.nav-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* height: 50px; */
-    list-style-type: none;
-    margin: 10px;
-}
-
-/* TODO: add hover to nav items */
-.nav-item {
-    font-size: 1.5em;
-}
-
-.nav-link {
-    color: var(--complement-1);
-    text-decoration: none;
-}
-
-/** MAIN */
-
-.post-main {
+.page-main {
     grid-area: main;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding: 10px;
+    gap: 0.5rem;
+    padding: 1rem 10px 0.5rem 10px;
     z-index: 1;
+    background-color: var(--grey-1);
 }
 
 .post-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    display: grid;
+    grid-template-areas:
+        "post-title post-title post-title  post-avatar"
+        "post-date  post-date  post-author post-author";
+    gap: 0.5rem;
+    align-items: end;
+    margin-right: 10px;
 }
 
 .post-title {
-    font-size: 1.2em;
+    grid-area: post-title;
+    align-self: end;
+    font-family: inherit;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    color: var(--color-1-3);
+    text-shadow: 1px 1px 1px var(--grey-5-half);
 }
 
 .auth-img {
+    grid-area: post-avatar;
+    align-self: center;
+    justify-self: right;
     width: 30px;
     height: 30px;
-    border: 1px solid var(--secondary-2-4);
-    border-radius: 15px;
-}
-
-.post-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    border-radius: 10px;
+    box-shadow: 0 0 1px var(--grey-8), 1px 1px 1px var(--grey-8-half);
 }
 
 .post-date {
-    font-size: 0.8em;
+    grid-area: post-date;
+    font-size: 0.9em;
     font-style: italic;
-    font-weight: lighter;
-    color: var(--grey-dark-1);
+    font-weight: 300;
+    color: var(--grey-8);
 }
 
 .post-author {
+    grid-area: post-author;
+    justify-self: right;
     font-size: 1em;
     font-style: italic;
-    font-weight: lighter;
-    color: var(--grey-dark-1);
+    font-weight: 300;
+    color: var(--grey-8);
 }
 
 .post-content {
-    margin-top: 10px;
+    /* padding: 1rem 10px 0.5rem 10px; */
 }
+
+.post-content p {
+    /* margin: 0 10px 1em 10px; */
+}
+
 
 /* TODO: Add center, left-wrap, right-wrap classes for flow around images? */
-.post-image {
-    display: block;
-    max-width: 90%;
-    height: auto;
-    margin: 10px auto;
+.post-figure {
+    /* display: block; */
+    /* max-width: 100%; */
+    /* padding: 0 10px; */
+    margin: 1em 0;
 }
 
-/** Share - social */
-/* social */
+.post-figure img {
+    display: block;
+    max-width: 500px;
+    width: 80vw;
+    max-height: 100vw;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--grey-2);
+    box-shadow: 0 0 2px var(--grey-5-half), 1px 1px 1px var(--grey-8-half);
+}
+
+.post-figure figcaption {
+    text-align: center;
+    line-height: 1rem;
+    margin: 1rem auto;
+    font-style: italic;
+    color: var(--color-1-3);
+    font-weight: 600;
+    text-shadow: 1px 1px 0px var(--grey-5-half);
+}
+
+
+/* quotes */
+.post-quote {
+    box-shadow: 0 0 3px var(--grey-5-half), 0 0 3px var(--grey-5-half), 0 0 3px var(--grey-5-half), 1px 1px 1px var(--grey-8-half);
+    width: 100%;
+    border-top: 1px solid var(--grey-1);
+    border-bottom: 1px solid var(--grey-1);
+    margin: 1.5em 0 1em 0;
+}
+
+
+.post-quote p {
+    text-align: center;
+    color: var(--color-1-4);
+    margin: 0.5rem auto;
+}
+
+
+.post-quote p::before {
+    content: '"';
+}
+
+
+.post-quote p::after {
+    content: '"';
+}
+
+
+.post-quote footer {
+    text-align: right;
+    margin: 0 20px 5px auto;
+}
+
+
+.post-quote-new {
+    /* box-shadow: 0 0 3px var(--grey-5-half), 0 0 3px var(--grey-5-half), 0 0 3px var(--grey-5-half), 1px 1px 1px var(--grey-8-half); */
+    width: 100%;
+    /* border-top: 1px solid var(--grey-1);
+    border-bottom: 1px solid var(--grey-1); */
+    margin: 1.5em 0 1em 0;
+}
+
+.post-quote-new > hr {
+    border: 1px solid var(--grey-5-half);
+}
+
+
+.post-quote-new > hr:first-child {
+    box-shadow: 0px -0.5px 1px var(--grey-5-half);
+}
+
+
+.post-quote-new > hr:last-child {
+    box-shadow: 0px 0.5px 1px var(--grey-5-half);
+}
+
+.post-quote-new > p {
+    text-align: center;
+    color: var(--color-1-4);
+    margin: 0.5rem auto;
+}
+
+
+.post-quote-new > p ::before {
+    content: '"';
+}
+
+
+.post-quote-new p::after {
+    content: '"';
+}
+
+
+.post-quote-new footer {
+    text-align: right;
+    margin: 0 20px 5px auto;
+}
+
+
+/** share on: social */
 .post-share {
     grid-area: share;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
-    font-weight: bold;
-    color: var(--secondary-2-4);
-    background-color: var(--primary-0); 
-}
-
-.social-list {
-    display: flex;
-    flex-direction: row;
     justify-content: end;
+    align-items: end;
     gap: 20px;
-    list-style-type: none;
-    padding: 10px;
+    /* align-items: center; */
+    padding: 1rem 0;
+    background-color: var(--color-1-2);
+    box-shadow: 1px 0px 3px var(--grey-8-half);
+    z-index: 5;
 }
 
-.icon {
-    /* TODO: do I need this? */
-}
-
-
-/* TODO: Add icons from ??? */
-.icon-tw {
-    content: "TW";
-}
-.icon-fb {
-    content: "FB"
-}
-.icon-ln {
-    content: "LN"
+.post-share p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    /* text-align: left; */
+    color: var(--color-1-4);
+    text-shadow: 1px 1px 1px var(--grey-5-half);
+    /* align-self: end; */
 }
 
 
 /** Feature - related blog list */
 .post-feature {
     grid-area: feature;
-    padding: 10px;
     z-index: 1;
-    background-color: var(--secondary-2-1);
-    /* TODO: Controlled programatically via buttons */
-    overflow: auto;
+    background-color: var(--grey-2);
+    padding: 2rem 0 1rem 0;
 }
+
+
+.post-feature > h2 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-2-3);
+    text-shadow: 0 0 1px var(--color-2-5), 0 0 2px var(--color-2-4), 1px 1px 1px var(--grey-5-half);
+}
+
+
+.feature-box {
+    /* TODO: Scroll controlled programatically via buttons */
+    overflow: scroll;
+    width: 100vw;
+    padding: 1em 10px;
+}
+
 
 .feature-list {
     display: flex;
@@ -209,167 +256,224 @@ body {
     gap: 10px;
 }
 
-.mini-card-1 {
-    height: 150px;
-    max-height: 240px;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 130px 1fr 1fr;
-    grid-template-rows: max-content max-content 1fr max-content;
-    grid-template-areas:
-        "card-img card-title card-title"
-        "card-img card-auth  card-auth"
-        "card-img card-share card-read";
-    row-gap: 0;
-    column-gap: 10px;
-    border: 1px outset var(--secondary-2-2);
-}
 
-
-.mini-card-2 {
-    height: 80px;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 80px;
-    grid-template-rows: max-content max-content 1fr max-content;
-    grid-template-areas:
-        "card-title card-title card-img"
-        "card-auth  card-auth  card-img"
-        "none none card-img"
-        "card-read  card-share card-img";
-    row-gap: 0;
-    column-gap: 10px;
-    border: 1px outset var(--secondary-2-2);
-}
-
-
-.mini-card-3 {
-    height: 100px;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: repeat(4, max-content);
-    grid-template-areas:
-        "card-title card-img"
-        "card-auth  card-img"
-        "card-read  card-img"
-        "card-share card-img";
-    row-gap: 0;
-    column-gap: 10px;
-    border: 1px outset var(--secondary-2-2);
-}
-
-.mini-card-4 {
-    height: 100px;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: repeat(4, max-content);
-    grid-template-areas:
-        "card-img card-title"
-        "card-img card-auth"
-        "card-img card-read"
-        "card-img card-share";
-    row-gap: 0;
-    column-gap: 10px;
-    border: 1px outset var(--secondary-2-2);
-}
-
-
-.mini-card-img {
-    grid-area: card-img;
-    height: 100px;
-    border: 1px solid var(--grey-dark-1);
-    border-radius: 5px;
-    background-color: var(--grey-dark-2);
-}
-
-/* TODO: tidy... move to separate, base, component or themes sheet */
-.button {
-    /* height: 100%; */
-    /* width: 100%; */
-    display: inline-block;
-    border: 1px solid var(--grey-dark-4);
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    margin-top: auto;
-}
-
-.btn-primary {
-    border: 1px solid var(--grey-dark-4);
-    color: var(--grey-dark-4);
-    background-color: var(--grey-light-1);
-}
-
-.btn-primary-inv {
-    border: 1px solid var(--grey-dark-4);
-    color: var(--grey-light-1);
-    background-color: var(--grey-dark-4);
-}
-
-
-.button:hover {
-    color: var(--grey-dark-1);
-    background-color: var(--grey-light-4);
-    /* todo: add jiggle */
-}
-
-.card-read {
-    grid-area: card-read;
-}
-
-.card-share {
-    grid-area: card-share;
-}
-
-.mini-card-title {
-    grid-area: card-title;
-    font-size: 1em;
-    font-weight: bold;
-}
-
-.mini-card-author {
-    grid-area: card-auth;
-    font-size: 0.8em;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.text-right {
-    text-align: right;
-}
 
 
 /** Footer */
-.main-foot {
+.page-footer {
     grid-area: foot;
-    background-color: var(--primary-0); 
+    /*TODO: little hack to get sizing looking better until there is more footer content */
+    height: 5rem;
+    padding-top: 1.5rem;
 }
 
-.copyright {
-    padding: 10px;
-    text-align: right;    
+
+@media only screen and (min-width: 725px) {
+
+    body {
+        background-color: green;
+    }
+
+    .page-title {
+        font-size: 3.5rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
+
+    .container {
+        grid-template-areas:
+            "head head    head"
+            "left main    right"
+            "left share   right"
+            "left feature right"
+            "foot foot    foot";
+        grid-template-columns: 1fr minmax(725px, 0.6vw) 1fr;
+    }
+
+    
+    .page-main {
+        padding: 1.5rem 20px 0.5rem 20px;
+        gap: 1.5rem;
+    }
+
+      
+    .post-head {
+        grid-template-areas:
+            "post-title post-author post-avatar"
+            "post-title post-date   post-avatar";
+        grid-template-columns: 1fr max-content max-content;
+        column-gap: 20px;
+    }
+    
+    .post-title {
+        font-size: 2rem;
+    }
+
+    
+    .auth-img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+    .post-date {
+        font-size: 1em;
+        justify-self: right;
+    }
+
+    
+    .post-author {
+        justify-self: right;
+        font-size: 1.25em;
+    }
+
+
+    .float-left {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .float-right {
+        float: right;
+        margin-left: 20px;
+    }
+
+    .float-left > img,
+    .float-right > img {
+        max-width: 370px;
+        max-height: 50vw;
+    }
+
+    .float-left > figcaption,
+    .float-right > figcaption
+    {
+        display: block;
+    }
+
+
+    .feature-box {
+        padding: 1em 20px;
+        width: inherit;
+    }
+
+
+    .feature-list {
+        gap: 20px;
+    }
 }
 
-/** Floating button */
-.float-icon {
-    position: fixed;
-    z-index: 5;
-    text-decoration: none;
-    padding: 10px;
-    border: 1px solid var(--secondary-1-2);
-    border-radius: 20px;
-    background-color: var(--secondary-1-1);
+@media only screen and (min-width: 1100px) {
+
+    body {
+        background-color: red;
+    }
+
+    .page-title {
+        font-size: 4rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+
+    .auth-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+    .post-title {
+        font-size: 2.5rem;
+    }
+
+
+    .post-date {
+        font-size: 1.1em;
+    }
+
+    
+    .post-author {
+        font-size: 1.3em;
+    }
+
+
 }
 
-.icon-up {
-    content: "UP";
-    top: 20px;
-    left: 20px;
+
+@media only screen and (min-width: 1280px) {
+
+    body {
+        background-color: blue;
+    }
+
+
+    .container {
+        grid-template-areas:
+            "head head head"
+            "none main share"
+            "none main feature"
+            "none main author"
+            "foot foot foot";
+        grid-template-columns: minmax(256px, 1fr) minmax(min-content, 800px) minmax(256px, 1fr);
+        justify-content: center;
+    }
+
+    .post-share {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 0;
+        padding: 1rem 0;
+        background-color: var(--grey-2);
+        box-shadow: 1px 0px 3px var(--grey-8-half);
+        z-index: 1;
+    }
+    
+    .post-share p {
+        align-self: start;
+        margin: 1rem 20px;
+    }
+
+    .social-list {
+        width: 230px;
+        margin: 1px 13px;
+        justify-content: space-between;
+        gap: 0;
+        padding: 0;
+    }
+    
+
+    /** Feature - related blog list */
+    .post-feature {
+        z-index: 2;
+        padding-bottom: 2rem;
+    }
+
+
+    .post-feature > h2 {
+        font-size: 2.5rem;
+        width: 230px;
+        margin: 0 auto 0.5rem 20px;
+    }
+
+    .feature-box {
+        /* TODO: Add vertical scroll when box exceeds other content on page. HOW? */
+        width: auto;
+    }
+
+
+    .feature-list {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        /* margin: 0.5rem 0; */
+    }
 }
+
+
+
+

@@ -1,44 +1,38 @@
 /* Main page cards */
-.card-1 {
+.card-1,
+.card-2 {
     min-height: 180px;
     max-height: 240px;
+    min-width: 340px;
     border-radius: 10px;
     padding: 10px;
     display: grid;
-    /* grid-template-columns: 130px 1fr 1fr; */
-    grid-template-columns: 130px 1fr;
     grid-template-rows: max-content max-content 1fr max-content;
-    grid-template-areas:
-                    "card-img card-title"
-                    "card-img card-auth"
-                    "card-img card-text"
-                    "card-img card-btns";
     row-gap: 0;
     column-gap: 10px;
-    background-color: var(--color-3-1);
-    box-shadow: 0 0 4px var(--color-3-2),
+    background-color: var(--grey-1);
+    box-shadow: 0 0 4px var(--grey-3),
                 1px 1px 2px var(--grey-8-half);
 }
 
 
-.card-2 {
-    min-height: 180px;
-    max-height: 240px;
-    border-radius: 10px;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 130px;
-    grid-template-rows: max-content max-content 1fr max-content;
+.card-1 {
+    grid-template-columns: 130px 1fr 1fr;
     grid-template-areas:
-        "card-title card-img"
-        "card-auth  card-img"
-        "card-text  card-img"
-        "card-btns card-img";
-    row-gap: 0;
-    column-gap: 10px;
-    background-color: var(--color-3-1);
-    box-shadow: 0 0 4px var(--color-3-2),
-                1px 1px 2px var(--grey-8-half);
+                    "card-img card-title card-title"
+                    "card-img card-auth  card-auth"
+                    "card-img card-text  card-text"
+                    "card-img card-share card-read";
+}
+
+
+.card-2 {
+    grid-template-columns: 1fr 1fr 130px;
+    grid-template-areas:
+        "card-title card-title card-img"
+        "card-auth  card-auth  card-img"
+        "card-text  card-text  card-img"
+        "card-read  card-share card-img";
 }
 
 /* TODO: div or image - positional stylings */
@@ -54,14 +48,6 @@
     box-shadow: 1px 1px 1px var(--grey-8-half), 0 0 3px var(--grey-5-half), 0 0 2px var(--grey-5-half), 0 0 2px var(--grey-5-half);
 }
 
-
-.card-img {
-    grid-area: card-img;
-    border: 1px solid var(--grey-5);
-    border-radius: 5px;
-    background-color: var(--grey-2);
-    box-shadow: 1px 1px 1px var(--grey-8-half);
-}
 
 .card-title {
     grid-area: card-title;
@@ -91,10 +77,98 @@
     color: var(--grey-9);
 }
 
-.card-btns {
-    grid-area: card-btns;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+
+
+.card-read,
+.card-share {
+    margin: 0 10px;
+}
+
+.card-read {
+    grid-area: card-read;
+}
+
+.card-share {
+    grid-area: card-share;
+}
+
+
+/** Mini Cards 230px by 120px **/
+.mini-card-1 {
+    grid-template-areas:
+        "mini-card-title mini-card-img"
+        "mini-card-auth  mini-card-img"
+        "none            mini-card-img"
+        "mini-card-read  mini-card-img"
+        "mini-card-share mini-card-img";
+}
+
+
+.mini-card-2 {
+    grid-template-areas:
+        "mini-card-img mini-card-title"
+        "mini-card-img mini-card-auth"
+        "mini-card-img none"
+        "mini-card-img mini-card-read"
+        "mini-card-img mini-card-share";
+}
+
+
+.mini-card-1,
+.mini-card-2 {
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(5, max-content);
+    column-gap: 10px;
+    background-color: var(--grey-1);
+    box-shadow: 0 0 2px var(--grey-2), 1px 1px 1px var(--grey-8-half);
+    max-width: 230px;
+}
+
+
+
+.mini-card-img {
+    grid-area: mini-card-img;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(25%) blur(0.1px);
+    border-radius: 5px;
+    background-color: var(--grey-2);
+    box-shadow: 1px 1px 1px var(--grey-8-half), 0 0 3px var(--grey-5-half), 0 0 2px var(--grey-5-half), 0 0 2px var(--grey-5-half);
+}
+
+
+.mini-card-title {
+    grid-area: mini-card-title;
+    font-size: 1rem;
+    color: var(--color-1-4);
+    text-shadow: 1px 1px 1px var(--grey-5-half);
+}
+
+.mini-card-author {
+    grid-area: mini-card-auth;
+    font-family: 'Montserrat', serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--grey-8-tint);
+}
+
+
+.mini-card-read {
+    grid-area: mini-card-read;
+}
+
+.mini-card-share {
+    grid-area: mini-card-share;
+}
+
+
+.mini-card-read,
+.mini-card-share {
+    font-size: 0.8rem;
+    margin-top: 10px;
 }

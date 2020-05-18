@@ -1,170 +1,126 @@
-@import url("./base.css");
 @import url("./colors.css");
+@import url("./base.css");
 @import url("./cards.css");
 @import url("./buttons.css");
 
-body {
-    /* font-family: TODO: add custom font  */
-    background-color: var(--grey-1);
-    color: var(--grey-9);
-    font-size: 12px;
-    /* position: relative; */
-}
 
 /* Page Layout */
-.content {
+.container {
     width: 100vw;
+    min-height: 100vh;
     display: grid;
     grid-template-areas:
         "head"
         "main"
-        "social"
         "foot";
+    grid-template-rows: max-content 1fr max-content;
 }
 
-/* HEADER */
 .main-head {
     grid-area: head;
-    background-color: var(--color-1-2);
-    box-shadow: 1px 1px 3px var(--grey-8-half);
-    z-index: 10;
 }
 
-/* TODO: do I want this? */
-.logo {
-    display: none;
-}
 
-.main-title {
-    font-size: 3em;
-    letter-spacing: 1px;
-    margin: 15px auto;
-    text-align: center;
-    color: var(--color-2-3);
-
-    text-shadow: 0 0 3px var(--color-2-4), 
-                 0 0 1px #000, 
-                 1px 1px 1px var(--grey-8-half)
-}
-
-.nav-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    margin: 10px 20px;
-}
-
-/* TODO: add hover to nav items */
-.nav-item {
-    font-size: 1.25em;
-}
-
-.nav-link {
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--color-1-4);
-    text-shadow: 1px 1px 1px var(--grey-8-half)
-}
-
-.nav-link:hover {
-    color: var(--color-2-3);
-    text-shadow: 0 0 3px var(--color-2-4), 
-                0 0 1px #000, 
-                1px 1px 1px var(--grey-8-half);
-}
-
-/* TODO: am I going use flex-order??? .flex-left .flex-right? */
-
-/* Main content */
 .card-list {
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+    align-content: start;
     padding: 10px;
     z-index: 1;
 }
 
 
-/* social */
-.main-social {
-    grid-area: social;
-}
-
-.social-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 20px;
-    list-style-type: none;
-    padding: 10px 20px;
-    background-color: var(--color-1-2);
-    box-shadow: 1px 0px 3px var(--grey-8-half);
-    z-index: 5; 
-}
-
-.icon {
-    cursor: pointer;
-    text-align: center;
-    font-size: 30px;
-    color: var(--color-1-4);
-    text-shadow: 1px 0px 1px var(--grey-8-half)
-}
-
-.icon:hover {
-    color: var(--color-2-3);
-    text-shadow: 0 0 3px var(--color-2-3),
-                 0 0 2px #000, 
-                 1px 1px 1px var(--grey-8-half)
-}
-
-
-/* Footer */
-.main-foot {
+.page-footer {
     grid-area: foot;
-    background-color: var(--color-1-2); 
-    z-index: 5; 
-}
-
-.copyright {
-    padding: 10px;
-    font-size: 1.1em;
-    font-weight: 600;
-    text-align: center;
-
-    color: var(--color-1-4);
-    text-shadow: 1px 1px var(--grey-8-veil)
 }
 
 
-/* Floating button */
-.float-icon-up {
-    position: fixed;
-    z-index: 5;
-    text-decoration: none;
-    font-size: 30px;
-    cursor: pointer;
-    top: 10px;
-    left: 10px;
-    color: var(--color-1-4);
-    text-shadow: 1px 1px 1px var(--grey-8-half)
+@media only screen and (min-width: 725px) {
 
-    /* text-shadow: 0px 0px 3px var(--color-2-5),
-                 1px 1px 1px var(--grey-8-half),
-                 -1px 1px 0 var(--color-1-5),
-                1px 1px 0 var(--color-1-5),
-                1px -1px 0 var(--color-1-5),
-                -1px -1px 0 var(--color-1-5),
-                -1px 0 0 var(--color-1-5),
-                1px 0 0 var(--color-1-5),
-                0 -1px 0 var(--color-1-5),
-                0 1px 0 var(--color-1-5); */
+    body {
+        background-color: green;
+    }
+
+    .page-title {
+        font-size: 3.5rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 15px;
+    }
+
+    .social-list {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
 }
 
-.float-icon-up:hover {
-    color: var(--color-2-3);
-    text-shadow: 0 0 3px var(--color-2-4), 
-                 0 0 1px #000, 
-                 1px 1px 1px var(--grey-8-half)
+@media only screen and (min-width: 1100px) {
+
+    body {
+        background-color: red;
+    }
+
+    .page-title {
+        font-size: 4rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .card-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .page-footer {
+        display: grid;
+        grid-template-columns: 1fr 400px 400px 1fr;
+        grid-template-areas: "left social copyright right";
+        align-items: baseline;
+        padding: 2rem 0;
+    }
+
+    .social-list {
+        grid-area: social;
+        justify-self: left;
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .copyright {
+        grid-area: copyright;
+        justify-self: right;
+        padding: 0;
+        margin: 0 20px 0 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+    body {
+        background-color: blue;
+    }
+
+    .card-list {
+        max-width: 1280px;
+        grid-template-columns: repeat(3, 400px);
+        margin: 0 auto;
+    }
+
 }

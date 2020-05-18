@@ -1,5 +1,5 @@
 /* Main body font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400');
 
 /* Headings - hand writing font */
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display');
@@ -8,16 +8,20 @@
 @import url('../assets/icons/fa-mini-embedded.css');
 
 /* Reset browser defaults */
+:root {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: var(--grey-9);
+    background-color: var(--grey-2);
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-}
-
+h1,
 h2,
 h3,
 h4,
@@ -28,6 +32,128 @@ header   {
     font-size: 12px;
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
+
+/* Common Page Elements */
+.page-header {
+    background-color: var(--color-1-2);
+    box-shadow: 0px 0px 3px var(--color-1-4-half),
+                1px 1px 5px var(--grey-8-half);
+    z-index: 10;
+}
+
+/* TODO: do I want this? */
+.logo {
+    display: none;
+}
+
+.page-title {
+    font-size: 3em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 15px auto;
+    color: var(--color-2-3);
+    text-shadow: 0 0 3px var(--color-2-3), 
+                 0 0 1px var(--color-2-5), 
+                 2px 2px 1px var(--grey-8-half);
+}
+
+
+.page-nav {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 1em auto;
+}
+
+/* TODO: should I use flex-order instead??? .flex-left .flex-right? */
+.nav-item {
+    font-size: 1.25em;
+}
+
+
+.nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-1-4);
+    text-shadow: 1px 1px 1px var(--grey-8-half)
+}
+
+
+.nav-link:hover {
+    color: var(--color-2-3);
+    text-shadow: 0 0 3px var(--color-2-4), 
+                0 0 1px #000, 
+                1px 1px 1px var(--grey-8-half);
+}
+
+
+.social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    /* padding: 10px 20px; */
+    padding: 0 13px 0 0;
+}
+
+.icon {
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-1-4);
+    text-shadow: 1px 0px 1px var(--grey-8-half)
+}
+
+.icon:hover {
+    color: var(--color-2-3);
+    text-shadow: 0 0 3px var(--color-2-3),
+                 0 0 2px #000, 
+                 1px 1px 1px var(--grey-8-half)
+}
+
+
+/* Footer */
+.page-footer {
+    background-color: var(--color-1-2); 
+    z-index: 5; 
+}
+
+.copyright {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    color: var(--color-1-4);
+    text-shadow: 1px 1px var(--grey-5-half)
+}
+
+
+/* Floating button */
+.float-icon {
+    position: fixed;
+    z-index: 5;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--color-1-4);
+    text-shadow: 1px 1px 1px var(--grey-8-half)
+}
+
+.float-icon:hover {
+    color: var(--color-2-3);
+    text-shadow: 0 0 3px var(--color-2-4), 
+                 0 0 1px #000, 
+                 1px 1px 1px var(--grey-8-half)
+}
 
 /* Text Utility Classes */
 .text-right {
@@ -36,4 +162,12 @@ header   {
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.left-by-10px {
+    left: 10px;
+}
+
+.down-by-10px {
+    top: 10px;
 }

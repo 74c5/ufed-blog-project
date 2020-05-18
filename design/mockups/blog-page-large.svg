@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="blog-page-large.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg839"
+   version="1.1"
+   viewBox="0 0 508.00001 529.16665"
+   height="2000"
+   width="1920">
+  <defs
+     id="defs833">
+    <rect
+       id="rect1361"
+       height="31.75"
+       width="190.5"
+       y="254"
+       x="121.70833" />
+    <rect
+       id="rect1327"
+       height="89.958333"
+       width="100.54167"
+       y="153.45833"
+       x="211.66667" />
+    <rect
+       id="rect1180"
+       height="95.25"
+       width="190.5"
+       y="84.666667"
+       x="121.70833" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1642"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1640" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1258" />
+    </marker>
+    <filter
+       height="1.0011502"
+       y="-0.00057511605"
+       width="1.000134"
+       x="-6.6988716e-05"
+       inkscape:label="dropshadow"
+       id="filter4409"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         result="result3"
+         in="SourceAlpha"
+         id="feGaussianBlur4411"
+         stdDeviation="0.0024543643" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="result4"
+         id="feColorMatrix4437" />
+      <feOffset
+         in="result4"
+         preserveAlpha="false"
+         result="result1"
+         id="feOffset4417"
+         dy="0.5"
+         dx="0.5" />
+      <feMerge
+         result="result2"
+         id="feMerge4419">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode4421"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4423"
+           inkscape:collect="always" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4409-5"
+       inkscape:label="dropshadow"
+       x="-6.6988716e-05"
+       width="1.000134"
+       y="-0.00057511608"
+       height="1.0011503">
+      <feGaussianBlur
+         stdDeviation="0.0024543643"
+         id="feGaussianBlur4411-8"
+         in="SourceAlpha"
+         result="result3" />
+      <feColorMatrix
+         id="feColorMatrix4437-4"
+         result="result4"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         dx="0.25"
+         dy="0.25"
+         id="feOffset4417-3"
+         result="result1"
+         preserveAlpha="false"
+         in="result4" />
+      <feMerge
+         id="feMerge4419-7"
+         result="result2">
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4421-1"
+           in="result1" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4423-3"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       height="1.0011503"
+       y="-0.00057511608"
+       width="1.000134"
+       x="-6.6988716e-05"
+       inkscape:label="dropshadow"
+       id="filter4409-5-4"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         result="result3"
+         in="SourceAlpha"
+         id="feGaussianBlur4411-8-3"
+         stdDeviation="0.0024543643" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="result4"
+         id="feColorMatrix4437-4-7" />
+      <feOffset
+         in="result4"
+         preserveAlpha="false"
+         result="result1"
+         id="feOffset4417-3-1"
+         dy="0.25"
+         dx="0.25" />
+      <feMerge
+         result="result2"
+         id="feMerge4419-7-2">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode4421-1-2"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4423-3-0"
+           inkscape:collect="always" />
+      </feMerge>
+    </filter>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1642-1"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1640-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1258-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1258-4-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4409-5-4-9"
+       inkscape:label="dropshadow"
+       x="-6.6988716e-05"
+       width="1.000134"
+       y="-0.00057511608"
+       height="1.0011503">
+      <feGaussianBlur
+         stdDeviation="0.0024543643"
+         id="feGaussianBlur4411-8-3-8"
+         in="SourceAlpha"
+         result="result3" />
+      <feColorMatrix
+         id="feColorMatrix4437-4-7-7"
+         result="result4"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         dx="0.25"
+         dy="0.25"
+         id="feOffset4417-3-1-2"
+         result="result1"
+         preserveAlpha="false"
+         in="result4" />
+      <feMerge
+         id="feMerge4419-7-2-8"
+         result="result2">
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4421-1-2-2"
+           in="result1" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4423-3-0-9"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       height="1.0011503"
+       y="-0.00057511608"
+       width="1.000134"
+       x="-6.6988716e-05"
+       inkscape:label="dropshadow"
+       id="filter4409-5-4-9-6"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         result="result3"
+         in="SourceAlpha"
+         id="feGaussianBlur4411-8-3-8-1"
+         stdDeviation="0.0024543643" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="result4"
+         id="feColorMatrix4437-4-7-7-3" />
+      <feOffset
+         in="result4"
+         preserveAlpha="false"
+         result="result1"
+         id="feOffset4417-3-1-2-2"
+         dy="0.25"
+         dx="0.25" />
+      <feMerge
+         result="result2"
+         id="feMerge4419-7-2-8-1">
+        <feMergeNode
+           in="result1"
+           id="feMergeNode4421-1-2-2-5"
+           inkscape:collect="always" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode4423-3-0-9-9"
+           inkscape:collect="always" />
+      </feMerge>
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter4409-5-4-9-6-4"
+       inkscape:label="dropshadow"
+       x="-6.6988716e-05"
+       width="1.000134"
+       y="-0.00057511608"
+       height="1.0011503">
+      <feGaussianBlur
+         stdDeviation="0.0024543643"
+         id="feGaussianBlur4411-8-3-8-1-8"
+         in="SourceAlpha"
+         result="result3" />
+      <feColorMatrix
+         id="feColorMatrix4437-4-7-7-3-0"
+         result="result4"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         dx="0.25"
+         dy="0.25"
+         id="feOffset4417-3-1-2-2-4"
+         result="result1"
+         preserveAlpha="false"
+         in="result4" />
+      <feMerge
+         id="feMerge4419-7-2-8-1-2"
+         result="result2">
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4421-1-2-2-5-9"
+           in="result1" />
+        <feMergeNode
+           inkscape:collect="always"
+           id="feMergeNode4423-3-0-9-9-6"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1021"
+     inkscape:window-width="1920"
+     units="px"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="1010.0894"
+     inkscape:cx="537.90627"
+     inkscape:zoom="0.415"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       empopacity="0.10196078"
+       empcolor="#4d4dff"
+       opacity="0.10196078"
+       color="#4d4dff"
+       snapvisiblegridlinesonly="true"
+       dotted="false"
+       id="grid1402"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       transform="matrix(1.6029069,0,0,1.0000178,-189.87396,-42.49838)"
+       y="53.080769"
+       x="148.18082"
+       height="285.33987"
+       width="211.25656"
+       id="rect1412"
+       style="opacity:1;fill:#c5cad0;fill-opacity:1;stroke:#939393;stroke-width:0.410112;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4409)" />
+    <rect
+       y="50.270832"
+       x="111.12506"
+       height="219.60417"
+       width="211.66667"
+       id="rect1114"
+       style="opacity:0.382;fill:#e3e6e8;fill-opacity:1;stroke:#000000;stroke-width:0.263003;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       rx="3.3172833e-16"
+       y="10.845237"
+       x="47.809803"
+       height="39.487434"
+       width="338.29718"
+       id="rect4373"
+       style="opacity:1;fill:#74a2d2;fill-opacity:1;stroke:#939393;stroke-width:0.244205;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       style="fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1361);-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       id="text1359"
+       xml:space="preserve"><tspan
+         x="121.70898"
+         y="257.74551"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias animi pariatur </tspan></tspan><tspan
+         x="121.70898"
+         y="263.03716"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">tempora placeat perspiciatis repellat id neque tempore et quia voluptatum, quam quos </tspan></tspan><tspan
+         x="121.70898"
+         y="268.32882"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">atque dolore molestiae quo.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Deleniti beatae nihil debitis blanditiis eius adipisci provident. </tspan></tspan><tspan
+         x="121.70898"
+         y="273.62048"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Soluta harum obcaecati quae quam sit doloremque maiores eius unde reiciendis, quod </tspan></tspan><tspan
+         x="121.70898"
+         y="278.91213"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">veniam quos perferendis laudantium nam magnam facilis blanditiis at consequatur et </tspan></tspan><tspan
+         x="121.70898"
+         y="284.20379"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">reprehenderit doloribus laboriosam, necessitatibus quis dolore. </tspan></tspan></text>
+    <rect
+       ry="1.3229166"
+       rx="1.3229166"
+       y="256.91043"
+       x="328.34787"
+       height="31.75"
+       width="52.916668"
+       id="rect1304-2-5"
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#74a2d2;fill-opacity:1;stroke:#939393;stroke-width:0.199299;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4373-5"
+       width="338.354"
+       height="26.296103"
+       x="47.734245"
+       y="270.16595"
+       rx="3.3178402e-16" />
+    <rect
+       style="opacity:1;fill:#74a2d2;fill-opacity:1;stroke:#040000;stroke-width:0.140351;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.140351, 0.140351;stroke-dashoffset:0;stroke-opacity:0.496769"
+       id="rect4373-9"
+       width="338.52631"
+       height="13.106262"
+       x="47.731236"
+       y="37.19643"
+       rx="3.3195301e-16" />
+    <text
+       id="text4427"
+       y="27.647041"
+       x="176.39763"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff742d;fill-opacity:1;stroke:#ae3b00;stroke-width:0.264583;stroke-opacity:0.5;filter:url(#filter4409)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff742d;fill-opacity:1;stroke:#ae3b00;stroke-width:0.264583;stroke-opacity:0.5"
+         y="27.647041"
+         x="176.39763"
+         id="tspan4425"
+         sodipodi:role="line">Blog a Blog Build</tspan></text>
+    <text
+       transform="matrix(0.71809327,0,0,1.0001792,78.254334,-0.0078393)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff742d;fill-opacity:1;stroke:#ae3b00;stroke-width:0.264583;stroke-opacity:0.5;filter:url(#filter4409-5)"
+       x="52.668049"
+       y="45.757992"
+       id="text4427-8"><tspan
+         y="45.757992"
+         x="52.668049"
+         id="tspan4521"
+         sodipodi:role="line">FUN</tspan></text>
+    <text
+       transform="matrix(0.71809327,0,0,1.0001792,78.254337,-0.0078393)"
+       id="text4427-8-2"
+       y="45.817242"
+       x="312.78275"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2969ac;fill-opacity:1;stroke:#052c56;stroke-width:0.264583;stroke-opacity:0.501961;filter:url(#filter4409-5-4)"
+       xml:space="preserve"><tspan
+         y="45.817242"
+         x="312.78275"
+         id="tspan4519"
+         sodipodi:role="line">ABOUT</tspan></text>
+    <text
+       id="text4525"
+       y="285.0925"
+       x="158.37521"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#2969ac;fill-opacity:1;stroke:#052c56;stroke-width:0.264583;filter:url(#filter4409-5)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2969ac;stroke:#052c56;stroke-width:0.264583"
+         y="285.0925"
+         x="158.37521"
+         id="tspan4523"
+         sodipodi:role="line">(c) 2097 - 74c5 Media Entertianment</tspan></text>
+    <rect
+       ry="1.3229166"
+       rx="1.3229166"
+       y="63.5"
+       x="328.08334"
+       height="7.9375"
+       width="7.9375"
+       id="rect1221"
+       style="opacity:1;fill:#2969ac;fill-opacity:1;stroke:#939393;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#2969ac;fill-opacity:1;stroke:#939393;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1221-0"
+       width="7.9375"
+       height="7.9375"
+       x="343.07639"
+       y="63.5"
+       rx="1.3229166"
+       ry="1.3229166" />
+    <rect
+       style="opacity:1;fill:#2969ac;fill-opacity:1;stroke:#939393;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1221-8"
+       width="7.9375"
+       height="7.9375"
+       x="373.06247"
+       y="63.5"
+       rx="1.3229166"
+       ry="1.3229166" />
+    <rect
+       style="opacity:1;fill:#2969ac;fill-opacity:1;stroke:#939393;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1221-3"
+       width="7.9375"
+       height="7.9375"
+       x="358.06943"
+       y="63.5"
+       rx="1.3229166"
+       ry="1.3229166" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path1256"
+       d="m 127,249.23747 c -3.54455,28.20497 -10.58333,58.20833 15.87788,74.24089"
+       style="fill:none;stroke:#ff0000;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart)" />
+    <text
+       id="text1608"
+       y="328.21921"
+       x="153.46118"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       xml:space="preserve"><tspan
+         id="tspan1312"
+         sodipodi:role="line">options to flow images</tspan><tspan
+         id="tspan1314"
+         sodipodi:role="line"> - using css classes</tspan></text>
+    <path
+       id="path1638"
+       d="m 79.375,42.333333 h 26.45834"
+       style="fill:none;stroke:#ff0000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1642)" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1642-1)"
+       d="M 354.54167,42.333333 H 328.08333"
+       id="path1638-0" />
+    <text
+       id="text1858"
+       y="35.048248"
+       x="390.93613"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.264583"
+         y="35.048248"
+         x="390.93613"
+         id="tspan1856"
+         sodipodi:role="line">max menu/footer</tspan><tspan
+         id="tspan1860"
+         style="stroke-width:0.264583"
+         y="48.277374"
+         x="390.93613"
+         sodipodi:role="line">width 800px</tspan></text>
+    <text
+       id="text1118"
+       y="72.984489"
+       x="120.20573"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#052c56;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4409-5-4)"
+       xml:space="preserve"><tspan
+         style="fill:#052c56;stroke-width:0.264583"
+         y="72.984489"
+         x="120.20573"
+         id="tspan1116"
+         sodipodi:role="line">My Blog Title</tspan></text>
+    <text
+       id="text1122"
+       y="72.713318"
+       x="237.37502"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         y="72.713318"
+         x="237.37502"
+         id="tspan1120"
+         sodipodi:role="line">weekday, dd Month yyyy</tspan></text>
+    <text
+       id="text1126"
+       y="65.353355"
+       x="250.75421"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         y="65.353355"
+         x="250.75421"
+         id="tspan1124"
+         sodipodi:role="line">by Author Name</tspan></text>
+    <circle
+       r="7.9375"
+       cy="66.197838"
+       cx="304.10211"
+       id="path1128"
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4409-5)" />
+    <text
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;shape-inside:url(#rect1180);-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       id="text1178"
+       xml:space="preserve"><tspan
+         x="121.70898"
+         y="88.411523"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias animi pariatur </tspan></tspan><tspan
+         x="121.70898"
+         y="93.703187"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">tempora placeat perspiciatis repellat id neque tempore et quia voluptatum, quam quos </tspan></tspan><tspan
+         x="121.70898"
+         y="98.994851"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">atque dolore molestiae quo.
+</tspan></tspan><tspan
+         x="121.70898"
+         y="104.28652"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">
+</tspan></tspan><tspan
+         x="121.70898"
+         y="109.57818"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Deleniti beatae nihil debitis blanditiis eius adipisci provident. Soluta harum obcaecati </tspan></tspan><tspan
+         x="121.70898"
+         y="114.86984"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">quae quam sit doloremque maiores eius unde reiciendis, quod veniam quos perferendis </tspan></tspan><tspan
+         x="121.70898"
+         y="120.16151"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">laudantium nam magnam facilis blanditiis at consequatur et reprehenderit doloribus </tspan></tspan><tspan
+         x="121.70898"
+         y="125.45317"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">laboriosam, necessitatibus quis dolore. 
+</tspan></tspan><tspan
+         x="121.70898"
+         y="130.74484"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">
+</tspan></tspan><tspan
+         x="121.70898"
+         y="136.03651"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Quasi ab, suscipit enim neque dolorem, quas dolor voluptas ullam ducimus rerum, </tspan></tspan><tspan
+         x="121.70898"
+         y="141.32818"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">doloremque modi saepe dicta ipsa inventore adipisci sit earum natus consequatur </tspan></tspan><tspan
+         x="121.70898"
+         y="146.61985"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">molestiae cupiditate est possimus magnam dignissimos? </tspan></tspan></text>
+    <text
+       id="text1864"
+       y="317.50003"
+       x="354.54169"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       xml:space="preserve"><tspan
+         id="tspan1557"
+         sodipodi:role="line">if page height &gt; 720 px</tspan><tspan
+         id="tspan1559"
+         sodipodi:role="line">then allow scroll</tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.849223;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-8)"
+       d="m 322.79167,269.875 c 2.64583,60.85417 0,50.27083 21.16666,52.91667"
+       id="path1256-0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       ry="5"
+       rx="5"
+       y="153.98756"
+       x="121.70833"
+       height="90"
+       width="80"
+       id="rect1304"
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       transform="matrix(1,0,0,1.0702608,0,-10.819332)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1327);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text1325"
+       xml:space="preserve"><tspan
+         x="211.66602"
+         y="157.07946"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Lorem ipsum dolor sit amet consectetur </tspan></tspan><tspan
+         x="211.66602"
+         y="162.19448"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">adipisicing elit. Voluptate alias animi pariatur </tspan></tspan><tspan
+         x="211.66602"
+         y="167.3095"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">tempora placeat perspiciatis repellat id neque </tspan></tspan><tspan
+         x="211.66602"
+         y="172.42453"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">tempore et quia voluptatum, quam quos atque </tspan></tspan><tspan
+         x="211.66602"
+         y="177.53955"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">dolore molestiae quo.Deleniti beatae nihil </tspan></tspan><tspan
+         x="211.66602"
+         y="182.65457"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">debitis blanditiis eius adipisci provident. Soluta </tspan></tspan><tspan
+         x="211.66602"
+         y="187.76959"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">harum obcaecati quae quam sit doloremque </tspan></tspan><tspan
+         x="211.66602"
+         y="192.88461"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">maiores eius unde reiciendis, quod veniam quos </tspan></tspan><tspan
+         x="211.66602"
+         y="197.99963"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">perferendis laudantium nam magnam facilis </tspan></tspan><tspan
+         x="211.66602"
+         y="203.11465"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">blanditiis at consequatur et reprehenderit </tspan></tspan><tspan
+         x="211.66602"
+         y="208.22967"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">doloribus laboriosam, necessitatibus quis dolore.
+</tspan></tspan><tspan
+         x="211.66602"
+         y="218.45971"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Quasi ab, suscipit enim neque dolorem, quas </tspan></tspan><tspan
+         x="211.66602"
+         y="223.57473"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">dolor voluptas ullam ducimus rerum, </tspan></tspan><tspan
+         x="211.66602"
+         y="228.68975"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">doloremque modi saepe dicta ipsa inventore </tspan></tspan><tspan
+         x="211.66602"
+         y="233.80477"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">adipisci sit earum natus consequatur molestiae </tspan></tspan><tspan
+         x="211.66602"
+         y="238.9198"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.09202px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">cupiditate est possimus magnam dignissimos? </tspan></tspan></text>
+    <rect
+       y="50.270832"
+       x="322.79166"
+       height="26.458334"
+       width="63.5"
+       id="rect1379"
+       style="opacity:1;fill:none;fill-opacity:0.498552;stroke:#000000;stroke-width:0.220071;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.220071, 0.440141;stroke-dashoffset:0;stroke-opacity:0.496052" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#052c56;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4409-5-4-9)"
+       x="327.54233"
+       y="59.373299"
+       id="text1118-9"><tspan
+         y="59.373299"
+         x="327.54233"
+         id="tspan1428"
+         sodipodi:role="line">Share on:</tspan></text>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.498552;stroke:#000000;stroke-width:0.315094;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.315094, 0.630185;stroke-dashoffset:0;stroke-opacity:0.496052"
+       id="rect1379-7"
+       width="63.5"
+       height="54.239582"
+       x="322.79166"
+       y="76.729164" />
+    <text
+       id="text1118-9-9"
+       y="85.935349"
+       x="327.81842"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#052c56;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4409-5-4-9-6);"
+       xml:space="preserve"><tspan
+         id="tspan1484"
+         sodipodi:role="line">About the Author:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;-inkscape-font-specification:'sans-serif, Normal';font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;"
+       x="391.6846"
+       y="96.280403"
+       id="text1858-9"><tspan
+         id="tspan1507"
+         sodipodi:role="line">optional?</tspan></text>
+    <rect
+       y="131.23335"
+       x="322.79166"
+       height="138.64166"
+       width="63.5"
+       id="rect1379-7-1"
+       style="opacity:1;fill:none;fill-opacity:0.498552;stroke:#000000;stroke-width:0.503768;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:0.503768, 1.00753;stroke-dashoffset:0;stroke-opacity:0.496052" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#052c56;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter4409-5-4-9-6-4);"
+       x="327.81842"
+       y="140.43954"
+       id="text1118-9-9-0"><tspan
+         id="tspan1551"
+         sodipodi:role="line">Similar Posts:</tspan></text>
+    <rect
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1304-2"
+       width="52.916668"
+       height="31.75"
+       x="328.08334"
+       y="145.52083"
+       rx="1.3229166"
+       ry="1.3229166" />
+    <rect
+       ry="1.3229166"
+       rx="1.3229166"
+       y="182.5625"
+       x="328.08334"
+       height="31.75"
+       width="52.916668"
+       id="rect1304-2-2"
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="1.3229166"
+       rx="1.3229166"
+       y="219.86871"
+       x="328.34787"
+       height="31.75"
+       width="52.916668"
+       id="rect1304-2-20"
+       style="opacity:1;fill:#535354;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
