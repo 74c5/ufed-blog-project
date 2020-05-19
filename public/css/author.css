@@ -1,0 +1,128 @@
+@import url("./colors.css");
+@import url("./base.css");
+@import url("./cards.css");
+@import url("./buttons.css");
+
+
+/* Page Layout */
+.container {
+    max-width: 800px;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "head"
+        "main"
+        "foot";
+    grid-template-rows: max-content 1fr max-content;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.page-header {
+    grid-area: head;
+}
+
+.page-main {
+    height: 100%;
+    grid-area: main;
+    padding: 3rem 0 0.5rem 0;
+    z-index: 1;
+    background-color: var(--grey-1);
+}
+
+.page-main > h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--color-1-4);
+    text-shadow: 0 0 1px var(--color-1-3), 1px 1px 1px var(--grey-5-half);
+    margin-bottom: 1rem;
+}
+
+.author-info {
+    display: grid;
+    grid-template-areas: 
+        "lpad lname  name   avatar  rpad"
+        "lpad ltitle title  avatar  rpad"
+        "lpad lorg   org    avatar  rpad"
+        "lpad lbio   bio    bio     rpad"
+        "lpad lshare social social  rpad";
+    grid-template-columns: minmax(10px, 2.5%) max-content 1fr max-content minmax(10px, 2.5%);
+    /* column-gap: 10px; */
+    row-gap: 0.5rem;
+    align-content: start;
+    align-items: start;
+}
+
+.author-info > label {
+    text-align: left;
+    font-weight: 600;
+    font-style: small-caps;
+}
+
+.author-info > p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.author-avatar {
+    grid-area: avatar;
+    min-width: 40px;
+    max-width: 100px;
+    width: 12.5vw;
+    justify-self: right;
+    border-radius: 10px;
+    box-shadow: 0 0 1px var(--grey-8), 1px 1px 1px var(--grey-8-half);
+}
+
+
+.author-lname {
+    grid-area: lname;
+}
+
+.author-name {
+    grid-area: name;
+}
+
+.author-ltitle {
+    grid-area: ltitle;
+}
+
+.author-title {
+    grid-area: title;
+}
+
+.author-lorg {
+    grid-area: lorg;
+}
+
+.author-org {
+    grid-area: org;
+}
+
+.author-lbio {
+    grid-area: lbio;
+}
+
+.author-bio {
+    grid-area: bio;
+}
+
+.author-lsocial {
+    grid-area: lshare;
+}
+
+.social-list {
+    grid-area: social;
+    gap: 0;
+
+}
+
+
+.page-footer {
+    grid-area: foot;
+    /*TODO: little hack to get sizing looking better until there is more footer content */
+    height: 5rem;
+    padding-top: 1.5rem;
+}

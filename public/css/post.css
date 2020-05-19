@@ -256,7 +256,9 @@
     gap: 10px;
 }
 
-
+.author-info {
+    display: none;
+}
 
 
 /** Footer */
@@ -415,10 +417,11 @@
         grid-template-areas:
             "head head head"
             "none main share"
-            "none main feature"
             "none main author"
+            "none main feature"
             "foot foot foot";
         grid-template-columns: minmax(256px, 1fr) minmax(min-content, 800px) minmax(256px, 1fr);
+        grid-template-rows: repeat(3, max-content) 1fr max-content;
         justify-content: center;
     }
 
@@ -446,6 +449,69 @@
         padding: 0;
     }
     
+
+    /** Show author info */
+    .author-info {
+        /* width: 290px; */
+        grid-area: author;
+        display: grid;
+        grid-template-areas: 
+            "a-head  a-head"
+            "a-name  a-avatar"
+            "a-title a-avatar"
+            "a-org   a-avatar"
+            "a-bio   a-bio";
+        grid-template-columns: 176px 64px;
+        grid-auto-rows: max-content;
+        column-gap: 10px;
+        row-gap: 0.5rem;
+        /* padding: 20px; */
+        background-color: var(--grey-2);
+        z-index: 2;
+    }
+
+    .author-info > h3 {
+        grid-area: a-head;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        color: var(--color-2-3);
+        text-shadow: 0 0 1px var(--color-2-5), 0 0 2px var(--color-2-4), 1px 1px 1px var(--grey-5-half);
+    }
+
+    .author-info > p {
+        margin: 0 auto 0 20px;
+    }
+
+    .author-avatar {
+        grid-area: a-avatar;
+        width: 64px;
+        height: 64px;
+        justify-self: right;
+        border-radius: 10px;
+        box-shadow: 0 0 1px var(--grey-8), 1px 1px 1px var(--grey-8-half);
+    }
+
+    .author-name {
+        grid-area: a-name;
+        font-style: italic;
+        color: var(--color-1-4);
+    }
+
+    .author-title {
+        grid-area: a-title;
+    }
+
+    .author-org {
+        grid-area: a-org;
+    }
+
+    .author-bio {
+        grid-area: a-bio;
+    }
+
 
     /** Feature - related blog list */
     .post-feature {
