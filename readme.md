@@ -52,9 +52,12 @@ for raw icons and
 )
 
 
-# Future structural Ideas
+# Future structural Ideas/Improvements
 
-All of the below would work more easily if pages were not static.
+- Bug (21/5/2020): quotes is needs more margin in center when another object is flowed to the left or right of it.
+- card preview images should be styled/resized better - with classes for use in html.
+
+Then the following would be easier, if pages were not static or could be compiled.
 - post list on author page or as section on post page (would be nice if procedural).
 - post tags or categories
 
@@ -68,6 +71,8 @@ a.k.a. Things to do on a production site, but would required extra work or haven
 - generally more consistent styling, etc.
     - this isn't a production design, just me playing with various ideas.
     - e.g heading sizes and styles are not consistent or unified across multiple pages.
+- some way to order/filter cards on home screen
+- post featured section has scroll function in vertical mode so that page length is not stretched by it.
 
 # Personal "Learnings"
 

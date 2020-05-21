@@ -224,7 +224,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 800px) {
 
     .page-title {
         font-size: 4rem;

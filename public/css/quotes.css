@@ -30,7 +30,7 @@ blockquote > p {
 }
 
 
-blockquote > p ::before {
+blockquote > p::before {
     content: '"';
 }
 
@@ -46,7 +46,7 @@ blockquote > footer {
 }
 
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 800px) {
  
     .quote-left {
         float: left;
@@ -58,11 +58,15 @@ blockquote > footer {
         margin-left: 20px;
     }
 
-    .quote-left > img,
-    .quote-right > img {
-        max-width: 370px;
-        max-height: 50vw;
+    .quote-left,
+    .quote-right {
+        max-width: 380px;
     }
+
+    /* .quote-left > p,
+    .quote-right > p {
+        max-width: 330px;
+    } */
 
     .quote-left > figcaption,
     .quote-right > figcaption

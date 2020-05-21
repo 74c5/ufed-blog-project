@@ -49,8 +49,8 @@
         "lpad lbio   bio    bio     rpad"
         "lpad lshare social social  rpad";
     grid-template-columns: minmax(10px, 2.5%) max-content 1fr 1fr minmax(10px, 2.5%);
-    /* column-gap: 10px; */
-    row-gap: 0.5rem;
+    grid-auto-rows: max-content;
+    row-gap: 1rem;
     align-content: start;
     align-items: start;
 }
@@ -63,7 +63,7 @@
 
 .author-info > p {
     text-align: left;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .author-avatar {

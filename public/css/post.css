@@ -8,6 +8,7 @@
 /* Page Layout */
 .container {
     width: 100vw;
+    min-height: 100vh;
     display: grid;
     grid-template-areas:
         "head"
@@ -15,6 +16,7 @@
         "share"
         "feat"
         "foot";
+    grid-template-rows: max-content 1fr repeat(3, max-content);
 }
 
 .page-header {
@@ -173,7 +175,7 @@
             "share share share"
             "feat  feat  feat"
             "foot  foot  foot";
-        grid-template-columns: 1fr minmax(725px, 0.6vw) 1fr;
+        grid-template-columns: 1fr minmax(725px, 800px) 1fr;
     }
 
     
@@ -217,7 +219,7 @@
 
     .feature-box {
         padding: 1em 20px;
-        width: inherit;
+        width: 100vw;
     }
 
 
@@ -226,7 +228,7 @@
     }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 800px) {
 
     .post-auth-img > img {
         width: 50px;
@@ -252,7 +254,7 @@
 }
 
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1350px) {
 
    .container {
         grid-template-areas:
@@ -261,7 +263,7 @@
             "none main author"
             "none main feat"
             "foot foot foot";
-        grid-template-columns: minmax(256px, 1fr) minmax(min-content, 800px) minmax(256px, 1fr);
+        grid-template-columns: minmax(256px, 1fr) 800px minmax(256px, 1fr);
         grid-template-rows: repeat(3, max-content) 1fr max-content;
         justify-content: center;
     }
