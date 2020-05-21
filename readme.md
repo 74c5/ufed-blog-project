@@ -46,7 +46,10 @@ There is a base style (base.css) which contains styles common across all pages a
     - [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself)
 for raw icons and
     - [Fontello](http://fontello.com/) to bundle them into a smaller packs.
-- Generic Author image from [Generated](https://generated.photos/)
+    - Favicon generated on [gauger.io/fonticon/](https://gauger.io/fonticon/)
+- Avatars
+    - Template author image from [Generated](https://generated.photos/)
+    - Avatar from [GetAvataaars](https://getavataaars.com)
 - Colors
     - [Palleton](http://paletton.com/#uid=70j0u0kqoy79ySAf-KTyPlOEPg-
 )
