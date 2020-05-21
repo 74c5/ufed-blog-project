@@ -48,7 +48,7 @@
         "lpad lorg   org    avatar  rpad"
         "lpad lbio   bio    bio     rpad"
         "lpad lshare social social  rpad";
-    grid-template-columns: minmax(10px, 2.5%) max-content 1fr max-content minmax(10px, 2.5%);
+    grid-template-columns: minmax(10px, 2.5%) max-content 1fr 1fr minmax(10px, 2.5%);
     /* column-gap: 10px; */
     row-gap: 0.5rem;
     align-content: start;
@@ -71,7 +71,7 @@
     min-width: 40px;
     max-width: 100px;
     width: 12.5vw;
-    justify-self: right;
+    justify-self: center;
     border-radius: 10px;
     box-shadow: 0 0 1px var(--grey-8), 1px 1px 1px var(--grey-8-half);
 }
@@ -115,14 +115,7 @@
 
 .social-list {
     grid-area: social;
-    gap: 0;
-
-}
-
-
-.page-footer {
-    grid-area: foot;
-    /*TODO: little hack to get sizing looking better until there is more footer content */
-    height: 5rem;
-    padding-top: 1.5rem;
+    gap: 2vw;
+    max-width: 500px;
+    margin: 0 auto 0 10px;
 }

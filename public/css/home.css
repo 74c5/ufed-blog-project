@@ -16,12 +16,12 @@
     grid-template-rows: max-content 1fr max-content;
 }
 
-.main-head {
+.page-header {
     grid-area: head;
 }
 
 
-.card-list {
+.page-main {
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr;
@@ -39,45 +39,15 @@
 
 @media only screen and (min-width: 725px) {
 
-    body {
-        background-color: green;
-    }
-
-    .page-title {
-        font-size: 3.5rem;
-    }
-
-    .nav-link {
-        font-size: 1.5rem;
-    }
-
     .card-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 15px;
         padding: 15px;
     }
-
-    .social-list {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
 }
 
 @media only screen and (min-width: 1100px) {
-
-    body {
-        background-color: red;
-    }
-
-    .page-title {
-        font-size: 4rem;
-    }
-
-    .nav-link {
-        font-size: 2rem;
-    }
 
     .card-list {
         display: grid;
@@ -85,37 +55,10 @@
         gap: 20px;
         padding: 20px;
     }
-
-    .page-footer {
-        display: grid;
-        grid-template-columns: 1fr 400px 400px 1fr;
-        grid-template-areas: "left social copyright right";
-        align-items: baseline;
-        padding: 2rem 0;
-    }
-
-    .social-list {
-        grid-area: social;
-        justify-self: left;
-        margin: 0 0 0 20px;
-        padding: 0;
-    }
-
-    .copyright {
-        grid-area: copyright;
-        justify-self: right;
-        padding: 0;
-        margin: 0 20px 0 0;
-    }
-
 }
 
 
 @media only screen and (min-width: 1280px) {
-
-    body {
-        background-color: blue;
-    }
 
     .card-list {
         max-width: 1280px;

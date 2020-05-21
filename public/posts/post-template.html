@@ -28,7 +28,9 @@
         </header>
         <section class="author-info">
             <h3>About the author</h3>
-            <img class="author-avatar" src="../assets/avatars/joe.jpg" alt="It's a tortoise">
+            <a class="author-avatar" href="../authors/author-template.html">
+                <img src="../assets/avatars/template-avatar.png" alt="It's a tortoise">
+            </a>
             <p class="author-name"><a href="../authors/author-template.html">Joe Bloggs</a></p>
             <p class="author-title">Funky Dev Lead</p>
             <p class="author-org">74c5 Media (un)Ltd</p>
@@ -39,7 +41,9 @@
         <main class="page-main">
             <header class="post-head">
                 <h1 class=post-title>A Very Interesting Read</h1>
-                <img src="../assets/avatars/joe.jpg" alt="joe's fat face" class="auth-img">
+                <a class="post-auth-img" href="../authors/author-template.html">
+                    <img src="../assets/avatars/template-avatar.png" alt="joe's fat face">
+                </a>
                 <h2 class="post-author">by Joe Bloggs</h2>
                 <h3 class="post-date">Weekday, DD Month YYYY</h3>
             </header>
@@ -60,7 +64,9 @@
                 </p>
                 
                 <!-- can use classes; float-left and float right, for resolutions above 1280px-->
-                <figure class="post-figure"> 
+                <!-- <figure class="fig-left">  -->
+                <!-- <figure class="fig-left">  -->
+                <figure class=""> 
                     <img src="../assets/post-images/day2_Paletton_Color_Scheme.png" 
                          alt="a post image">
                     <figcaption>A very nice picture for you-a to look-a aht.</figcaption>
@@ -73,27 +79,18 @@
                     illo similique ut nemo mollitia nihil vero dolores. Voluptatem odio alias quas.
                 </p>
 
-                <!-- TODO: remove -->
-                <blockquote class="post-quote" cite="https://youtu.be/dg3PberzvXo">
-                    <p>
-                        This is my brain and it's fine<br>
-                        It's where I spend the vast majority of my time<br>
-                        It's not perfect but it's mine
-                    </p>
-                    <footer>-Tim Minchin, <cite>Not Perfect</cite></footer>
-                </blockquote>
-
-                <blockquote class="post-quote-new" cite="https://youtu.be/dg3PberzvXo">
-                    <hr>
-                    <p>
-                        This is my brain and it's fine<br>
-                        It's where I spend the vast majority of my time<br>
-                        It's not perfect but it's mine
-                    </p>
-                    <footer>-Tim Minchin, <cite>Not Perfect</cite></footer>
-                    <hr>
-                </blockquote>
-
+                
+                <!-- <blockquote class="quote-right" cite=""> -->
+                <!-- <blockquote class="quote-left" cite=""> -->
+                    <blockquote class="" cite="https://youtu.be/dg3PberzvXo">
+                        <p>
+                            This is my brain and it's fine<br>
+                            It's where I spend the vast majority of my time<br>
+                            It's not perfect but it's mine
+                        </p>
+                        <footer>-Tim Minchin, <cite>Not Perfect</cite></footer>
+                    </blockquote>
+    
 
                 <p>Voluptas, quisquam veniam! Incidunt itaque, tenetur dicta necessitatibus fugit
                     ipsam sed sint odio. Accusantium ducimus quisquam officiis tenetur et atque,
@@ -101,6 +98,8 @@
                     eius consequuntur sed culpa dolore illum recusandae aliquid id sint fugit rem,
                     illo similique ut nemo mollitia nihil vero dolores. Voluptatem odio alias quas.
                 </p>
+
+
 
                 <p>Voluptas, quisquam veniam! Incidunt itaque, tenetur dicta necessitatibus fugit
                     ipsam sed sint odio. Accusantium ducimus quisquam officiis tenetur et atque,
@@ -141,10 +140,10 @@
         </aside>
 
         <aside class="post-share">
-            <p>share on:</p>
             <ul id="share" class="social-list">
                 <!-- TODO: make generic - just a right justified icon list -->
                 <!-- TODO: custom links to share content of blog? -->
+                <li><p>Share on:</p></li>
                 <li><a class="icon icon-tw" href="#"></a></li>
                 <li><a class="icon icon-fb" href="#"></a></li>
                 <li><a class="icon icon-ln" href="#"></a></li>
@@ -153,6 +152,13 @@
         </aside>
 
         <footer class="page-footer">
+            <ul class="social-list">
+                <li><a class="icon icon-tw" href="https://www.twitter.com"></a></li>
+                <li><a class="icon icon-fb" href="#https://twitter.com"></a></li>
+                <li><a class="icon icon-ln" href="https://www.linkedin.com"></a></li>
+                <li><a class="icon icon-github" href="https://github.com/74c5/ufed-blog-project"></a></li>
+                <li><a class="icon icon-instagram" href="https://www.instagram.com/"></a></li>
+            </ul>
             <p class="copyright">&copy; 2097 74c5 Media Entertainment</p>
         </footer>
     </div>

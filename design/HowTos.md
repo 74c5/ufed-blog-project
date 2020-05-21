@@ -1,6 +1,8 @@
-*Short snippets, links to useful tutorials and info for developement*
+*Short snippets, links to useful tutorials and info for development*
 
+# Useful Links
 
+ - [Traversy List](https://github.com/bradtraversy/design-resources-for-developers)
 
 # Git
 

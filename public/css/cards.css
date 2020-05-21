@@ -3,7 +3,7 @@
 .card-2 {
     min-height: 180px;
     max-height: 240px;
-    min-width: 340px;
+    min-width: 320px;
     border-radius: 10px;
     padding: 10px;
     display: grid;
@@ -51,7 +51,7 @@
 
 .card-title {
     grid-area: card-title;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: var(--color-1-4);
     text-shadow: 1px 1px 1px var(--grey-5-half);
 }
@@ -60,7 +60,7 @@
     grid-area: card-auth;
     padding-bottom: 5px;
     font-family: 'Montserrat', serif;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--grey-8-tint);
 }
@@ -116,15 +116,16 @@
 
 .mini-card-1,
 .mini-card-2 {
-    border-radius: 10px;
+    max-width: 230px;
+    box-sizing: border-box;
     padding: 10px;
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: repeat(5, max-content);
     column-gap: 10px;
+    border-radius: 10px;
     background-color: var(--grey-1);
     box-shadow: 0 0 2px var(--grey-2), 1px 1px 1px var(--grey-8-half);
-    max-width: 230px;
 }
 
 

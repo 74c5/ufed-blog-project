@@ -8,8 +8,10 @@ Tri-color with complement in pastels
 - CSS [link](./colors.css)
 
 
-# Fonts
+photos: https://generated.photos/
 
+# Fonts
+fonts.google.com
 
 
 # Icons
