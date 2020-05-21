@@ -31,6 +31,10 @@
     background-color: var(--grey-1);
 }
 
+.page-main h2 {
+    font-size: 1.5rem;
+}
+
 .post-head {
     display: grid;
     grid-template-areas:
